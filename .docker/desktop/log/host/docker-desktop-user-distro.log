@@ -1,0 +1,1533 @@
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-06-09T15:47:06.886606967Z][docker-desktop-user-distro][I] set path configuration to InsideWslWorkspace
+[2023-06-09T15:47:06.888496927Z][docker-desktop-user-distro][I] changed the mode of the socket /mnt/wsl/docker-desktop/shared-sockets/host-services/extension-manager.sock to 0660
+[2023-06-09T15:47:06.888534873Z][docker-desktop-user-distro][I] ipc.NewClient: 2a2f4733-LinuxProxyCMD -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendAPI
+[2023-06-09T15:47:06.888602696Z][docker-desktop-user-distro][I] ipc.NewClient: 5132c670-WSLIntegrationProxy -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendCLI
+[2023-06-09T15:47:06.888896448Z][docker-desktop-user-distro][I] 9966c22d-cross-distro : registering GET /ping
+[2023-06-09T15:47:06.888935619Z][docker-desktop-user-distro][I] 9966c22d-cross-distro : registering GET /
+[2023-06-09T15:47:06.888955172Z][docker-desktop-user-distro][I] add ProxyAutoResume middleware
+[2023-06-09T15:47:06.889031689Z][docker-desktop-user-distro][I] 9966c22d-cross-distro : registering GET /goroutines/stacks
+[2023-06-09T15:47:06.890242624Z][docker-desktop-user-distro][I] starting 577bfb73-dockerCLISock for component WSLIntegrationProxy on /var/run/docker-cli.sock
+[2023-06-09T15:47:06.890637417Z][docker-desktop-user-distro][I] 9966c22d-cross-distro : registering POST /add-mount
+[2023-06-09T15:47:06.890668627Z][docker-desktop-user-distro][I] 9966c22d-cross-distro : registering POST /write
+[2023-06-09T15:47:06.890684187Z][docker-desktop-user-distro][I] ipc.NewClient: 96505b85-CrossDistroService -> /var/run/docker.sock WSL2DistroProxy
+[2023-06-09T15:47:06.890732987Z][docker-desktop-user-distro][I] 9966c22d-cross-distro : registering GET /check
+[2023-06-09T15:47:06.892356047Z][docker-desktop-user-distro][I] starting 9966c22d-cross-distro for component Ubuntu-18.04 on /mnt/wsl/docker-desktop/shared-sockets/guest-services/distro-services/ubuntu-18.04.sock
+[2023-06-09T15:47:06.892429338Z][docker-desktop-user-distro][I] 2a2f4733-LinuxProxyCMD /pause/state <-- [2023-06-09T10:47:06.890707215-05:00] (2215dc46) ipc connecting : <nil>
+[2023-06-09T15:47:06.892467767Z][docker-desktop-user-distro][W] loading versions: unmarshalling components version: open /opt/docker-desktop/componentsVersion.json: no such file or directory
+[2023-06-09T15:47:06.895837004Z][docker-desktop-user-distro][I] 2a2f4733-LinuxProxyCMD /pause/state <-- [2023-06-09T10:46:55.906736700-05:00] (590a7aca) pause resumed : init
+[2023-06-09T15:47:06.895916697Z][docker-desktop-user-distro][I] 2a2f4733-LinuxProxyCMD /pause/state <-- [2023-06-09T10:47:06.895226000-05:00] (e27f4d6d) ipc ready : <nil>
+[2023-06-09T15:47:06.950829960Z][docker-desktop-user-distro][I] creating symlink for /usr/bin/docker-credential-desktop.exe
+[2023-06-09T15:47:06.951069270Z][docker-desktop-user-distro][I] cli tools directory /mnt/wsl/docker-desktop/cli-tools has contents
+[2023-06-09T15:47:06.951114625Z][docker-desktop-user-distro][I] populating cli tools from /mnt/wsl/docker-desktop/cli-tools
+[2023-06-09T15:47:06.951523620Z][docker-desktop-user-distro][I] creating symlink for /usr/bin/com.docker.cli
+[2023-06-09T15:47:06.951596436Z][docker-desktop-user-distro][I] creating symlink for /usr/bin/docker
+[2023-06-09T15:47:06.951652975Z][docker-desktop-user-distro][I] creating symlink for /usr/bin/docker-compose
+[2023-06-09T15:47:06.951697810Z][docker-desktop-user-distro][I] creating symlink for /usr/bin/docker-compose-v1
+[2023-06-09T15:47:06.951741077Z][docker-desktop-user-distro][I] creating symlink for /usr/bin/docker-index
+[2023-06-09T15:47:06.951796815Z][docker-desktop-user-distro][I] creating symlink for /usr/bin/hub-tool
+[2023-06-09T15:47:06.951995572Z][docker-desktop-user-distro][I] creating symlink for /usr/local/bin/kubectl
+[2023-06-09T15:47:06.952414733Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-buildx
+[2023-06-09T15:47:06.952526313Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-compose
+[2023-06-09T15:47:06.952641955Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-dev
+[2023-06-09T15:47:06.952783730Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-extension
+[2023-06-09T15:47:06.952905998Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-init
+[2023-06-09T15:47:06.953004995Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-sbom
+[2023-06-09T15:47:06.953112275Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-scan
+[2023-06-09T15:47:06.953247493Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-scout
+[2023-06-09T15:47:06.954531052Z][docker-desktop-user-distro][I] creating symlink for /usr/share/bash-completion/completions/docker
+[2023-06-09T15:47:06.956310498Z][docker-desktop-user-distro][I] creating symlink for /usr/share/doc/docker-ce-cli/changelog.Debian.gz
+[2023-06-09T15:47:06.957658596Z][docker-desktop-user-distro][I] creating symlink for /usr/share/fish/vendor_completions.d/docker.fish
+[2023-06-09T15:47:06.962458372Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-attach.1.gz
+[2023-06-09T15:47:06.963005827Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-build.1.gz
+[2023-06-09T15:47:06.963395290Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-builder-build.1.gz
+[2023-06-09T15:47:06.963727715Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-builder-prune.1.gz
+[2023-06-09T15:47:06.963803442Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-builder.1.gz
+[2023-06-09T15:47:06.964439409Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-checkpoint-create.1.gz
+[2023-06-09T15:47:06.964828850Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-checkpoint-ls.1.gz
+[2023-06-09T15:47:06.964931072Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-checkpoint-rm.1.gz
+[2023-06-09T15:47:06.965004421Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-checkpoint.1.gz
+[2023-06-09T15:47:06.965089703Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-commit.1.gz
+[2023-06-09T15:47:06.965507772Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-config-create.1.gz
+[2023-06-09T15:47:06.965613640Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-config-inspect.1.gz
+[2023-06-09T15:47:06.965705013Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-config-ls.1.gz
+[2023-06-09T15:47:06.965787245Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-config-rm.1.gz
+[2023-06-09T15:47:06.965882891Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-config.1.gz
+[2023-06-09T15:47:06.965977248Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-attach.1.gz
+[2023-06-09T15:47:06.966060251Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-commit.1.gz
+[2023-06-09T15:47:06.966143545Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-cp.1.gz
+[2023-06-09T15:47:06.966638102Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-create.1.gz
+[2023-06-09T15:47:06.966728363Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-diff.1.gz
+[2023-06-09T15:47:06.966819616Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-exec.1.gz
+[2023-06-09T15:47:06.966897660Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-export.1.gz
+[2023-06-09T15:47:06.967358036Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-inspect.1.gz
+[2023-06-09T15:47:06.967494381Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-kill.1.gz
+[2023-06-09T15:47:06.967598905Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-logs.1.gz
+[2023-06-09T15:47:06.967694965Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-ls.1.gz
+[2023-06-09T15:47:06.967780308Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-pause.1.gz
+[2023-06-09T15:47:06.967890461Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-port.1.gz
+[2023-06-09T15:47:06.967979699Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-prune.1.gz
+[2023-06-09T15:47:06.968069833Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-rename.1.gz
+[2023-06-09T15:47:06.968223017Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-restart.1.gz
+[2023-06-09T15:47:06.968308223Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-rm.1.gz
+[2023-06-09T15:47:06.968387360Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-run.1.gz
+[2023-06-09T15:47:06.968461400Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-start.1.gz
+[2023-06-09T15:47:06.968546435Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-stats.1.gz
+[2023-06-09T15:47:06.968648936Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-stop.1.gz
+[2023-06-09T15:47:06.968723635Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-top.1.gz
+[2023-06-09T15:47:06.968790611Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-unpause.1.gz
+[2023-06-09T15:47:06.968863725Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-update.1.gz
+[2023-06-09T15:47:06.968943176Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-wait.1.gz
+[2023-06-09T15:47:06.969020846Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container.1.gz
+[2023-06-09T15:47:06.969098411Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-create.1.gz
+[2023-06-09T15:47:06.969165917Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-export.1.gz
+[2023-06-09T15:47:06.969235236Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-import.1.gz
+[2023-06-09T15:47:06.969317031Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-inspect.1.gz
+[2023-06-09T15:47:06.969388110Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-ls.1.gz
+[2023-06-09T15:47:06.969457567Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-rm.1.gz
+[2023-06-09T15:47:06.969528190Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-show.1.gz
+[2023-06-09T15:47:06.969600703Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-update.1.gz
+[2023-06-09T15:47:06.969675958Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-use.1.gz
+[2023-06-09T15:47:06.969748784Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context.1.gz
+[2023-06-09T15:47:06.969818592Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-cp.1.gz
+[2023-06-09T15:47:06.969896649Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-create.1.gz
+[2023-06-09T15:47:06.969985141Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-diff.1.gz
+[2023-06-09T15:47:06.970064010Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-events.1.gz
+[2023-06-09T15:47:06.970143749Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-exec.1.gz
+[2023-06-09T15:47:06.970223934Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-export.1.gz
+[2023-06-09T15:47:06.970299473Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-history.1.gz
+[2023-06-09T15:47:06.970372939Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-build.1.gz
+[2023-06-09T15:47:06.970452366Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-history.1.gz
+[2023-06-09T15:47:06.970587992Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-import.1.gz
+[2023-06-09T15:47:06.970721397Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-inspect.1.gz
+[2023-06-09T15:47:06.970919107Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-load.1.gz
+[2023-06-09T15:47:06.971020191Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-ls.1.gz
+[2023-06-09T15:47:06.971161367Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-prune.1.gz
+[2023-06-09T15:47:06.971238549Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-pull.1.gz
+[2023-06-09T15:47:06.971376266Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-push.1.gz
+[2023-06-09T15:47:06.971453940Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-rm.1.gz
+[2023-06-09T15:47:06.971529100Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-save.1.gz
+[2023-06-09T15:47:06.971660045Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-tag.1.gz
+[2023-06-09T15:47:06.971735769Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image.1.gz
+[2023-06-09T15:47:06.971813717Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-images.1.gz
+[2023-06-09T15:47:06.972050423Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-import.1.gz
+[2023-06-09T15:47:06.972115080Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-info.1.gz
+[2023-06-09T15:47:06.972195296Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-inspect.1.gz
+[2023-06-09T15:47:06.972252335Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-kill.1.gz
+[2023-06-09T15:47:06.972306842Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-load.1.gz
+[2023-06-09T15:47:06.972383402Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-login.1.gz
+[2023-06-09T15:47:06.972478295Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-logout.1.gz
+[2023-06-09T15:47:06.972831964Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-logs.1.gz
+[2023-06-09T15:47:06.973024140Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-manifest-annotate.1.gz
+[2023-06-09T15:47:06.973109088Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-manifest-create.1.gz
+[2023-06-09T15:47:06.973246644Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-manifest-inspect.1.gz
+[2023-06-09T15:47:06.973332119Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-manifest-push.1.gz
+[2023-06-09T15:47:06.973449034Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-manifest-rm.1.gz
+[2023-06-09T15:47:06.973602362Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-manifest.1.gz
+[2023-06-09T15:47:06.973707721Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network-connect.1.gz
+[2023-06-09T15:47:06.973810425Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network-create.1.gz
+[2023-06-09T15:47:06.973951650Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network-disconnect.1.gz
+[2023-06-09T15:47:06.974051568Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network-inspect.1.gz
+[2023-06-09T15:47:06.974129470Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network-ls.1.gz
+[2023-06-09T15:47:06.974201367Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network-prune.1.gz
+[2023-06-09T15:47:06.974278326Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network-rm.1.gz
+[2023-06-09T15:47:06.974359009Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network.1.gz
+[2023-06-09T15:47:06.974438925Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node-demote.1.gz
+[2023-06-09T15:47:06.974520256Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node-inspect.1.gz
+[2023-06-09T15:47:06.974586245Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node-ls.1.gz
+[2023-06-09T15:47:06.974658785Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node-promote.1.gz
+[2023-06-09T15:47:06.974739120Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node-ps.1.gz
+[2023-06-09T15:47:06.974819023Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node-rm.1.gz
+[2023-06-09T15:47:06.974905205Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node-update.1.gz
+[2023-06-09T15:47:06.974968785Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node.1.gz
+[2023-06-09T15:47:06.975015185Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-pause.1.gz
+[2023-06-09T15:47:06.975089234Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-create.1.gz
+[2023-06-09T15:47:06.975171815Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-disable.1.gz
+[2023-06-09T15:47:06.975240052Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-enable.1.gz
+[2023-06-09T15:47:06.975312969Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-inspect.1.gz
+[2023-06-09T15:47:06.975399255Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-install.1.gz
+[2023-06-09T15:47:06.975465863Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-ls.1.gz
+[2023-06-09T15:47:06.975547154Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-push.1.gz
+[2023-06-09T15:47:06.975622549Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-rm.1.gz
+[2023-06-09T15:47:06.975745709Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-set.1.gz
+[2023-06-09T15:47:06.975822678Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-upgrade.1.gz
+[2023-06-09T15:47:06.975880968Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin.1.gz
+[2023-06-09T15:47:06.975966167Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-port.1.gz
+[2023-06-09T15:47:06.976031240Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-ps.1.gz
+[2023-06-09T15:47:06.976108530Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-pull.1.gz
+[2023-06-09T15:47:06.976198022Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-push.1.gz
+[2023-06-09T15:47:06.976263293Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-rename.1.gz
+[2023-06-09T15:47:06.976330620Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-restart.1.gz
+[2023-06-09T15:47:06.976394261Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-rm.1.gz
+[2023-06-09T15:47:06.976467537Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-rmi.1.gz
+[2023-06-09T15:47:06.976542646Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-run.1.gz
+[2023-06-09T15:47:06.976616972Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-save.1.gz
+[2023-06-09T15:47:06.976680114Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-search.1.gz
+[2023-06-09T15:47:06.976736881Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-secret-create.1.gz
+[2023-06-09T15:47:06.976800789Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-secret-inspect.1.gz
+[2023-06-09T15:47:06.976874483Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-secret-ls.1.gz
+[2023-06-09T15:47:06.976951444Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-secret-rm.1.gz
+[2023-06-09T15:47:06.977018198Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-secret.1.gz
+[2023-06-09T15:47:06.977088025Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-create.1.gz
+[2023-06-09T15:47:06.977161634Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-inspect.1.gz
+[2023-06-09T15:47:06.977229357Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-logs.1.gz
+[2023-06-09T15:47:06.977298694Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-ls.1.gz
+[2023-06-09T15:47:06.977375409Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-ps.1.gz
+[2023-06-09T15:47:06.977451239Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-rm.1.gz
+[2023-06-09T15:47:06.977507988Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-rollback.1.gz
+[2023-06-09T15:47:06.977569834Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-scale.1.gz
+[2023-06-09T15:47:06.977639179Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-update.1.gz
+[2023-06-09T15:47:06.977708470Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service.1.gz
+[2023-06-09T15:47:06.977781796Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stack-config.1.gz
+[2023-06-09T15:47:06.977890090Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stack-deploy.1.gz
+[2023-06-09T15:47:06.977970534Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stack-ls.1.gz
+[2023-06-09T15:47:06.978038385Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stack-ps.1.gz
+[2023-06-09T15:47:06.978111496Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stack-rm.1.gz
+[2023-06-09T15:47:06.978188172Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stack-services.1.gz
+[2023-06-09T15:47:06.978265243Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stack.1.gz
+[2023-06-09T15:47:06.978337995Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-start.1.gz
+[2023-06-09T15:47:06.978410723Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stats.1.gz
+[2023-06-09T15:47:06.978491804Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stop.1.gz
+[2023-06-09T15:47:06.978574037Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-ca.1.gz
+[2023-06-09T15:47:06.978649407Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-init.1.gz
+[2023-06-09T15:47:06.978726170Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-join-token.1.gz
+[2023-06-09T15:47:06.978802804Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-join.1.gz
+[2023-06-09T15:47:06.978874290Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-leave.1.gz
+[2023-06-09T15:47:06.978947436Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-unlock-key.1.gz
+[2023-06-09T15:47:06.979024846Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-unlock.1.gz
+[2023-06-09T15:47:06.979094639Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-update.1.gz
+[2023-06-09T15:47:06.979159526Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm.1.gz
+[2023-06-09T15:47:06.979228001Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-system-df.1.gz
+[2023-06-09T15:47:06.979298795Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-system-events.1.gz
+[2023-06-09T15:47:06.979369784Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-system-info.1.gz
+[2023-06-09T15:47:06.979440559Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-system-prune.1.gz
+[2023-06-09T15:47:06.979513002Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-system.1.gz
+[2023-06-09T15:47:06.979589729Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-tag.1.gz
+[2023-06-09T15:47:06.979666493Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-top.1.gz
+[2023-06-09T15:47:06.979737697Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-inspect.1.gz
+[2023-06-09T15:47:06.979819854Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-key-generate.1.gz
+[2023-06-09T15:47:06.979896862Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-key-load.1.gz
+[2023-06-09T15:47:06.979969778Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-key.1.gz
+[2023-06-09T15:47:06.980039867Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-revoke.1.gz
+[2023-06-09T15:47:06.980112896Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-sign.1.gz
+[2023-06-09T15:47:06.980187225Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-signer-add.1.gz
+[2023-06-09T15:47:06.980248276Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-signer-remove.1.gz
+[2023-06-09T15:47:06.980314519Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-signer.1.gz
+[2023-06-09T15:47:06.980394841Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust.1.gz
+[2023-06-09T15:47:06.980464306Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-unpause.1.gz
+[2023-06-09T15:47:06.980539770Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-update.1.gz
+[2023-06-09T15:47:06.980613220Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-version.1.gz
+[2023-06-09T15:47:06.980684697Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-volume-create.1.gz
+[2023-06-09T15:47:06.980750985Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-volume-inspect.1.gz
+[2023-06-09T15:47:06.980822192Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-volume-ls.1.gz
+[2023-06-09T15:47:06.980890469Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-volume-prune.1.gz
+[2023-06-09T15:47:06.980960796Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-volume-rm.1.gz
+[2023-06-09T15:47:06.981028452Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-volume-update.1.gz
+[2023-06-09T15:47:06.981092248Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-volume.1.gz
+[2023-06-09T15:47:06.981163062Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-wait.1.gz
+[2023-06-09T15:47:06.981234998Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker.1.gz
+[2023-06-09T15:47:06.982339568Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man5/Dockerfile.5.gz
+[2023-06-09T15:47:06.982637446Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man5/docker-config-json.5.gz
+[2023-06-09T15:47:06.983763783Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man8/dockerd.8.gz
+[2023-06-09T15:47:06.984669430Z][docker-desktop-user-distro][I] creating symlink for /usr/share/zsh/vendor-completions/_docker
+[2023-06-09T15:47:06.984766378Z][docker-desktop-user-distro][I] cli tools successfully installed
+[2023-06-09T15:47:06.984786634Z][docker-desktop-user-distro][I] docker-desktop-user-distro proxy has started
+[2023-06-09T15:47:14.584594897Z][docker-desktop-user-distro][I] (fbf77466-1) 9966c22d-cross-distro S<-C a153de09-cross-distro-router GET /check
+[2023-06-09T15:47:14.584685382Z][docker-desktop-user-distro][I] (fbf77466-1-1) 96505b85-CrossDistroService C->S WSL2DistroProxy GET /desktop-diagnostics/ping
+[2023-06-09T15:47:14.585026261Z][docker-desktop-user-distro][I] (fbf77466-1-1) 96505b85-CrossDistroService C<-S UnknownServer GET /desktop-diagnostics/ping (338.241µs): OK
+[2023-06-09T15:47:14.585097538Z][docker-desktop-user-distro][I] (fbf77466-1) 9966c22d-cross-distro S->C a153de09-cross-distro-router GET /check (513.076µs): OK
+[2023-06-09T16:37:10.578186570Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:37:10.579544338Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.417665ms)
+[2023-06-09T16:37:10.580012359Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/version
+[2023-06-09T16:37:10.585952776Z][docker-desktop-user-distro][I] proxy << GET /v1.43/version (5.940276ms)
+[2023-06-09T16:37:10.590602209Z][docker-desktop-user-distro][I] (00f14e01-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:37:10.591986002Z][docker-desktop-user-distro][I] (00f14e01-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.380681ms): OK
+[2023-06-09T16:37:10.625104687Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:37:10.625908280Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (813.522µs)
+[2023-06-09T16:37:10.961987984Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/info
+[2023-06-09T16:37:10.967727651Z][docker-desktop-user-distro][I] proxy << GET /v1.43/info (5.737974ms)
+[2023-06-09T16:37:10.971036511Z][docker-desktop-user-distro][I] (aa331432-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:37:10.972189060Z][docker-desktop-user-distro][I] (aa331432-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.168007ms): OK
+[2023-06-09T16:38:36.710629075Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:38:36.711581660Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (963.855µs)
+[2023-06-09T16:38:36.711922616Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/version
+[2023-06-09T16:38:36.717281619Z][docker-desktop-user-distro][I] proxy << GET /v1.43/version (5.356658ms)
+[2023-06-09T16:38:36.718742903Z][docker-desktop-user-distro][I] (e8ad32b3-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:38:36.719918441Z][docker-desktop-user-distro][I] (e8ad32b3-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.173006ms): OK
+[2023-06-09T16:38:36.765988570Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:38:36.766832867Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (854.206µs)
+[2023-06-09T16:38:36.805787915Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/info
+[2023-06-09T16:38:36.811286345Z][docker-desktop-user-distro][I] proxy << GET /v1.43/info (5.48681ms)
+[2023-06-09T16:38:36.813911753Z][docker-desktop-user-distro][I] (bbbc5b63-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:38:36.815054077Z][docker-desktop-user-distro][I] (bbbc5b63-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.138639ms): OK
+[2023-06-09T16:38:36.894809826Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:38:36.895622301Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (822.326µs)
+[2023-06-09T16:38:36.927057412Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/info
+[2023-06-09T16:38:36.932325864Z][docker-desktop-user-distro][I] proxy << GET /v1.43/info (5.267626ms)
+[2023-06-09T16:38:36.934069274Z][docker-desktop-user-distro][I] (28392c8b-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:38:36.935176584Z][docker-desktop-user-distro][I] (28392c8b-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.089163ms): OK
+[2023-06-09T16:38:36.992643557Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:38:36.993530732Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (896.718µs)
+[2023-06-09T16:38:36.993900292Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/images/json
+[2023-06-09T16:38:36.995260801Z][docker-desktop-user-distro][I] proxy << GET /v1.43/images/json (1.359773ms)
+[2023-06-09T16:38:36.996705727Z][docker-desktop-user-distro][I] (3b9b43c5-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:38:36.997734603Z][docker-desktop-user-distro][I] (3b9b43c5-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.025108ms): OK
+[2023-06-09T16:38:53.685724839Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:38:53.686633048Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (917.796µs)
+[2023-06-09T16:38:53.687233205Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/networks/minikube
+[2023-06-09T16:38:53.689071928Z][docker-desktop-user-distro][I] proxy << GET /v1.43/networks/minikube (1.836614ms)
+[2023-06-09T16:38:53.691214644Z][docker-desktop-user-distro][I] (ce07343c-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:38:53.692497490Z][docker-desktop-user-distro][I] (ce07343c-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.279428ms): OK
+[2023-06-09T16:38:53.757400520Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:38:53.758579195Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.189691ms)
+[2023-06-09T16:38:53.759161785Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/json?all=1
+[2023-06-09T16:38:53.764479565Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/json?all=1 (5.316786ms)
+[2023-06-09T16:38:53.766004034Z][docker-desktop-user-distro][I] (17a79de2-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:38:53.766933703Z][docker-desktop-user-distro][I] (17a79de2-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (926.653µs): OK
+[2023-06-09T16:38:53.813581236Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:38:53.814412305Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (840.608µs)
+[2023-06-09T16:38:53.814778963Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:38:53.818448120Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.667267ms)
+[2023-06-09T16:38:53.820640190Z][docker-desktop-user-distro][I] (2365751e-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:38:53.821788670Z][docker-desktop-user-distro][I] (2365751e-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.132225ms): OK
+[2023-06-09T16:38:53.863306244Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:38:53.864170557Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (875.585µs)
+[2023-06-09T16:38:53.864585911Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:38:53.867240944Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.655629ms)
+[2023-06-09T16:38:53.869148228Z][docker-desktop-user-distro][I] (86deb6dc-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:38:53.870168916Z][docker-desktop-user-distro][I] (86deb6dc-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.018866ms): OK
+[2023-06-09T16:38:53.914044417Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:38:53.914808053Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (774.153µs)
+[2023-06-09T16:38:53.915094695Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:38:53.917659379Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.563462ms)
+[2023-06-09T16:38:53.918521589Z][docker-desktop-user-distro][I] (41b17ea6) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerExecCliLinux-from-wsl","count":1}
+[2023-06-09T16:38:53.920678244Z][docker-desktop-user-distro][I] (41b17ea6) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (2.185159ms): OK
+[2023-06-09T16:38:53.920723979Z][docker-desktop-user-distro][I] usage containerExecCliLinux-from-wsl + 1
+[2023-06-09T16:38:53.920766371Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/minikube/exec
+[2023-06-09T16:38:53.922037194Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/minikube/exec (1.268218ms)
+[2023-06-09T16:38:53.922377576Z][docker-desktop-user-distro][I] (001f5213) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerStartCliLinux-from-wsl","count":1}
+[2023-06-09T16:38:53.923439746Z][docker-desktop-user-distro][I] (001f5213) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.082339ms): OK
+[2023-06-09T16:38:53.923507481Z][docker-desktop-user-distro][I] usage containerStartCliLinux-from-wsl + 1
+[2023-06-09T16:38:53.923536848Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/exec/68b67b7930d21d0c35a585bd6b038ecdecf8b61209a7f649cef7eb9b4101e768/start
+[2023-06-09T16:38:53.924407059Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-09T16:38:54.064150135Z][docker-desktop-user-distro][I] proxy << POST /v1.43/exec/68b67b7930d21d0c35a585bd6b038ecdecf8b61209a7f649cef7eb9b4101e768/start (140.592376ms)
+[2023-06-09T16:38:54.064354332Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/exec/68b67b7930d21d0c35a585bd6b038ecdecf8b61209a7f649cef7eb9b4101e768/json
+[2023-06-09T16:38:54.065180749Z][docker-desktop-user-distro][I] proxy << GET /v1.43/exec/68b67b7930d21d0c35a585bd6b038ecdecf8b61209a7f649cef7eb9b4101e768/json (824.802µs)
+[2023-06-09T16:38:54.067124889Z][docker-desktop-user-distro][I] (a5a521a5-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:38:54.068931407Z][docker-desktop-user-distro][I] (a5a521a5-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.796371ms): OK
+[2023-06-09T16:38:55.181206187Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:38:55.182049426Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (848.445µs)
+[2023-06-09T16:38:55.182333533Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:38:55.184860818Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.52645ms)
+[2023-06-09T16:38:55.186707168Z][docker-desktop-user-distro][I] (5a61f8ef-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:38:55.187690792Z][docker-desktop-user-distro][I] (5a61f8ef-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (980.731µs): OK
+[2023-06-09T16:38:55.232755553Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:38:55.233595375Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (850.784µs)
+[2023-06-09T16:38:55.233982112Z][docker-desktop-user-distro][I] (ea73a152) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerDeleteCliLinux-from-wsl","count":1}
+[2023-06-09T16:38:55.235026186Z][docker-desktop-user-distro][I] (ea73a152) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.096265ms): OK
+[2023-06-09T16:38:55.235062624Z][docker-desktop-user-distro][I] usage containerDeleteCliLinux-from-wsl + 1
+[2023-06-09T16:38:55.235108124Z][docker-desktop-user-distro][I] proxy >> DELETE /v1.43/containers/minikube?force=1&v=1
+[2023-06-09T16:38:56.802483334Z][docker-desktop-user-distro][I] proxy << DELETE /v1.43/containers/minikube?force=1&v=1 (1.567365537s)
+[2023-06-09T16:38:56.804351643Z][docker-desktop-user-distro][I] (a6d7a032-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:38:56.805488701Z][docker-desktop-user-distro][I] (a6d7a032-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.134323ms): OK
+[2023-06-09T16:38:56.862603757Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:38:56.863278098Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (690.521µs)
+[2023-06-09T16:38:56.863665505Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/volumes/create
+[2023-06-09T16:38:56.864718417Z][docker-desktop-user-distro][I] proxy << POST /v1.43/volumes/create (1.051327ms)
+[2023-06-09T16:38:56.866627101Z][docker-desktop-user-distro][I] (73c14e7d-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:38:56.867880177Z][docker-desktop-user-distro][I] (73c14e7d-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.249193ms): OK
+[2023-06-09T16:38:56.913465242Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:38:56.914301756Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (846.491µs)
+[2023-06-09T16:38:56.915126478Z][docker-desktop-user-distro][I] (5c3e3f9e) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerCreateCliLinux-from-wsl","count":1}
+[2023-06-09T16:38:56.916294339Z][docker-desktop-user-distro][I] (5c3e3f9e) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.189738ms): OK
+[2023-06-09T16:38:56.916327639Z][docker-desktop-user-distro][I] usage containerCreateCliLinux-from-wsl + 1
+[2023-06-09T16:38:56.916338871Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/create?name=minikube-preload-sidecar
+[2023-06-09T16:38:56.942009781Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/create?name=minikube-preload-sidecar (25.66515ms)
+[2023-06-09T16:38:56.945285106Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/96f52cff9e3d397685b9ee350853e78f32302caf0994fb1cd814e8ea2208bf7d/attach?stderr=1&stdout=1&stream=1
+[2023-06-09T16:38:56.946246322Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-09T16:38:56.946639648Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/96f52cff9e3d397685b9ee350853e78f32302caf0994fb1cd814e8ea2208bf7d/wait?condition=removed
+[2023-06-09T16:38:56.948068522Z][docker-desktop-user-distro][I] (9bacb9b0) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerStartCliLinux-from-wsl","count":1}
+[2023-06-09T16:38:56.949176330Z][docker-desktop-user-distro][I] (9bacb9b0) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.133961ms): OK
+[2023-06-09T16:38:56.949212377Z][docker-desktop-user-distro][I] usage containerStartCliLinux-from-wsl + 1
+[2023-06-09T16:38:56.949227184Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/96f52cff9e3d397685b9ee350853e78f32302caf0994fb1cd814e8ea2208bf7d/start
+[2023-06-09T16:38:56.953164354Z][docker-desktop-user-distro][I] (4a1012e8) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"exposePortCountCliLinux-from-wsl","count":1}
+[2023-06-09T16:38:56.954484869Z][docker-desktop-user-distro][I] (4a1012e8) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.333733ms): OK
+[2023-06-09T16:38:56.954534150Z][docker-desktop-user-distro][I] usage exposePortCountCliLinux-from-wsl + 1
+[2023-06-09T16:38:56.955719626Z][docker-desktop-user-distro][I] vpnkitApprover.Approve([])
+[2023-06-09T16:38:56.956884730Z][docker-desktop-user-distro][I] vpnkitExposer.Add(approver-3861634517472353534, approver-3861634517472353534, [])
+[2023-06-09T16:38:56.956931981Z][docker-desktop-user-distro][I] vpnkitExposer.Remove(approver-3861634517472353534)
+[2023-06-09T16:38:57.365785118Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/96f52cff9e3d397685b9ee350853e78f32302caf0994fb1cd814e8ea2208bf7d/start (416.551723ms)
+[2023-06-09T16:38:57.367328437Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/96f52cff9e3d397685b9ee350853e78f32302caf0994fb1cd814e8ea2208bf7d/attach?stderr=1&stdout=1&stream=1 (422.054177ms)
+[2023-06-09T16:38:57.707710771Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/96f52cff9e3d397685b9ee350853e78f32302caf0994fb1cd814e8ea2208bf7d/wait?condition=removed (761.067945ms)
+[2023-06-09T16:38:57.712532663Z][docker-desktop-user-distro][I] (d381ecc6-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:38:57.716020054Z][docker-desktop-user-distro][I] (d381ecc6-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (3.462831ms): OK
+[2023-06-09T16:38:57.794027842Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:38:57.795020147Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.001878ms)
+[2023-06-09T16:38:57.795988231Z][docker-desktop-user-distro][I] (99a23870) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerCreateCliLinux-from-wsl","count":1}
+[2023-06-09T16:38:57.797381603Z][docker-desktop-user-distro][I] (99a23870) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.416148ms): OK
+[2023-06-09T16:38:57.797428503Z][docker-desktop-user-distro][I] usage containerCreateCliLinux-from-wsl + 1
+[2023-06-09T16:38:57.797443104Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/create
+[2023-06-09T16:38:57.797744313Z][docker-desktop-user-distro][I] Requested propagation is rprivate. Skipping mount-point propagation check for /home/nikki/.minikube/cache/preloaded-tarball/preloaded-images-k8s-v18-v1.26.3-docker-overlay2-amd64.tar.lz4
+[2023-06-09T16:38:57.798130808Z][docker-desktop-user-distro][I] mounting /home/nikki/.minikube/cache/preloaded-tarball/preloaded-images-k8s-v18-v1.26.3-docker-overlay2-amd64.tar.lz4 to /mnt/wsl/docker-desktop-bind-mounts/Ubuntu-18.04/9720a5a6cd0306146e49e1b27094373d51cb84533de8481bededaf91d7c4c193
+[2023-06-09T16:38:57.798582302Z][docker-desktop-user-distro][I] mounting /mnt/c onto itself
+[2023-06-09T16:38:57.823579202Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/create (26.128661ms)
+[2023-06-09T16:38:57.826853658Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/3001a05b2b4de0c3cc9482f2599f96179ee5c0c96a8ddfd34ffa8273e8670690/attach?stderr=1&stdout=1&stream=1
+[2023-06-09T16:38:57.827949763Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-09T16:38:57.828315533Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/3001a05b2b4de0c3cc9482f2599f96179ee5c0c96a8ddfd34ffa8273e8670690/wait?condition=removed
+[2023-06-09T16:38:57.829643608Z][docker-desktop-user-distro][I] (b5fb081c) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerStartCliLinux-from-wsl","count":1}
+[2023-06-09T16:38:57.831016546Z][docker-desktop-user-distro][I] (b5fb081c) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.405247ms): OK
+[2023-06-09T16:38:57.831053110Z][docker-desktop-user-distro][I] usage containerStartCliLinux-from-wsl + 1
+[2023-06-09T16:38:57.831067513Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/3001a05b2b4de0c3cc9482f2599f96179ee5c0c96a8ddfd34ffa8273e8670690/start
+[2023-06-09T16:38:57.832504446Z][docker-desktop-user-distro][I] (653b54c4) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"wsl2DistroMountCountCliLinux-from-wsl","count":1}
+[2023-06-09T16:38:57.833859939Z][docker-desktop-user-distro][I] (653b54c4) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.37156ms): OK
+[2023-06-09T16:38:57.833920682Z][docker-desktop-user-distro][I] usage wsl2DistroMountCountCliLinux-from-wsl + 1
+[2023-06-09T16:38:57.833982968Z][docker-desktop-user-distro][I] (0828537a) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"exposePortCountCliLinux-from-wsl","count":1}
+[2023-06-09T16:38:57.835316752Z][docker-desktop-user-distro][I] (0828537a) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.361069ms): OK
+[2023-06-09T16:38:57.835353573Z][docker-desktop-user-distro][I] usage exposePortCountCliLinux-from-wsl + 1
+[2023-06-09T16:38:57.836120481Z][docker-desktop-user-distro][I] vpnkitApprover.Approve([])
+[2023-06-09T16:38:57.837361132Z][docker-desktop-user-distro][I] vpnkitExposer.Add(approver-3275073154230772151, approver-3275073154230772151, [])
+[2023-06-09T16:38:57.837402216Z][docker-desktop-user-distro][I] vpnkitExposer.Remove(approver-3275073154230772151)
+[2023-06-09T16:38:58.140837343Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/3001a05b2b4de0c3cc9482f2599f96179ee5c0c96a8ddfd34ffa8273e8670690/start (309.76086ms)
+[2023-06-09T16:39:01.019379279Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/3001a05b2b4de0c3cc9482f2599f96179ee5c0c96a8ddfd34ffa8273e8670690/attach?stderr=1&stdout=1&stream=1 (3.192537589s)
+[2023-06-09T16:39:01.591276797Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/3001a05b2b4de0c3cc9482f2599f96179ee5c0c96a8ddfd34ffa8273e8670690/wait?condition=removed (3.762956563s)
+[2023-06-09T16:39:01.594617637Z][docker-desktop-user-distro][I] (4ed57747-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:01.595775028Z][docker-desktop-user-distro][I] (4ed57747-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.139788ms): OK
+[2023-06-09T16:39:01.655544564Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:01.656363182Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (829.663µs)
+[2023-06-09T16:39:01.699275431Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/info
+[2023-06-09T16:39:01.704774005Z][docker-desktop-user-distro][I] proxy << GET /v1.43/info (5.496746ms)
+[2023-06-09T16:39:01.706412388Z][docker-desktop-user-distro][I] (ac0a89ae-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:01.707848181Z][docker-desktop-user-distro][I] (ac0a89ae-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.430472ms): OK
+[2023-06-09T16:39:01.751681162Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:01.752461472Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (800.902µs)
+[2023-06-09T16:39:01.753191646Z][docker-desktop-user-distro][I] (9490e5a9) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerCreateCliLinux-from-wsl","count":1}
+[2023-06-09T16:39:01.754343483Z][docker-desktop-user-distro][I] (9490e5a9) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.177329ms): OK
+[2023-06-09T16:39:01.754374291Z][docker-desktop-user-distro][I] usage containerCreateCliLinux-from-wsl + 1
+[2023-06-09T16:39:01.754385130Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/create?name=minikube
+[2023-06-09T16:39:01.754609654Z][docker-desktop-user-distro][I] Requested propagation is rprivate. Skipping mount-point propagation check for /lib/modules
+[2023-06-09T16:39:01.754855614Z][docker-desktop-user-distro][I] mounting /lib/modules to /mnt/wsl/docker-desktop-bind-mounts/Ubuntu-18.04/e289323796d4ef47feedeac3cc44572e560fb24a0db3553930393175d477f743
+[2023-06-09T16:39:01.779589191Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/create?name=minikube (25.198132ms)
+[2023-06-09T16:39:01.782406475Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/3b7f38a4e121fc1932ba5884be2197dc3dcdebb3b6cd532ccac39d85e59f24c9/wait?condition=next-exit
+[2023-06-09T16:39:01.783678428Z][docker-desktop-user-distro][I] (1a929432) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerStartCliLinux-from-wsl","count":1}
+[2023-06-09T16:39:01.784906325Z][docker-desktop-user-distro][I] (1a929432) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.182406ms): OK
+[2023-06-09T16:39:01.784944646Z][docker-desktop-user-distro][I] usage containerStartCliLinux-from-wsl + 1
+[2023-06-09T16:39:01.784971394Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/3b7f38a4e121fc1932ba5884be2197dc3dcdebb3b6cd532ccac39d85e59f24c9/start
+[2023-06-09T16:39:01.786385882Z][docker-desktop-user-distro][I] (cd5cd7b2) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"wsl2DistroMountCountCliLinux-from-wsl","count":1}
+[2023-06-09T16:39:01.787680271Z][docker-desktop-user-distro][I] (cd5cd7b2) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.312272ms): OK
+[2023-06-09T16:39:01.787737089Z][docker-desktop-user-distro][I] usage wsl2DistroMountCountCliLinux-from-wsl + 1
+[2023-06-09T16:39:01.787821995Z][docker-desktop-user-distro][I] (e35c9fa5) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"exposePortCountCliLinux-from-wsl","count":5}
+[2023-06-09T16:39:01.789045946Z][docker-desktop-user-distro][I] (e35c9fa5) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.24892ms): OK
+[2023-06-09T16:39:01.789091099Z][docker-desktop-user-distro][I] usage exposePortCountCliLinux-from-wsl + 5
+[2023-06-09T16:39:01.789975113Z][docker-desktop-user-distro][I] vpnkitApprover.Approve([TCP 127.0.0.1:0 TCP 127.0.0.1:0 TCP 127.0.0.1:0 TCP 127.0.0.1:0 TCP 127.0.0.1:0])
+[2023-06-09T16:39:01.791147472Z][docker-desktop-user-distro][I] vpnkitExposer.Add(approver-7426247541397472104, approver-7426247541397472104, [])
+[2023-06-09T16:39:01.791180448Z][docker-desktop-user-distro][I] vpnkitExposer.Remove(approver-7426247541397472104)
+[2023-06-09T16:39:03.436196538Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/3b7f38a4e121fc1932ba5884be2197dc3dcdebb3b6cd532ccac39d85e59f24c9/start (1.651218218s)
+[2023-06-09T16:39:03.438789840Z][docker-desktop-user-distro][I] Context canceled, closing connection for "/v1.43/containers/3b7f38a4e121fc1932ba5884be2197dc3dcdebb3b6cd532ccac39d85e59f24c9/wait?condition=next-exit"
+[2023-06-09T16:39:03.439241273Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/3b7f38a4e121fc1932ba5884be2197dc3dcdebb3b6cd532ccac39d85e59f24c9/wait?condition=next-exit (1.656830086s)
+[2023-06-09T16:39:03.439268671Z][docker-desktop-user-distro][I] (3b81e559-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:03.442877249Z][docker-desktop-user-distro][I] (3b81e559-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (3.596653ms): OK
+[2023-06-09T16:39:03.526916995Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:03.527728540Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (822.291µs)
+[2023-06-09T16:39:03.528053877Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:03.531015534Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.959523ms)
+[2023-06-09T16:39:03.533852615Z][docker-desktop-user-distro][I] (d527bf48-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:03.535744508Z][docker-desktop-user-distro][I] (d527bf48-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.884183ms): OK
+[2023-06-09T16:39:03.588656453Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:03.589460246Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (819.352µs)
+[2023-06-09T16:39:03.589835615Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:03.592990116Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.15074ms)
+[2023-06-09T16:39:03.595751165Z][docker-desktop-user-distro][I] (40ce3056-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:03.597082140Z][docker-desktop-user-distro][I] (40ce3056-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.32121ms): OK
+[2023-06-09T16:39:03.651804972Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:03.652576156Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (782.082µs)
+[2023-06-09T16:39:03.652838241Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:03.655629062Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.790754ms)
+[2023-06-09T16:39:03.656499401Z][docker-desktop-user-distro][I] (32422d7e) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerExecCliLinux-from-wsl","count":1}
+[2023-06-09T16:39:03.657631487Z][docker-desktop-user-distro][I] (32422d7e) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.153538ms): OK
+[2023-06-09T16:39:03.657683950Z][docker-desktop-user-distro][I] usage containerExecCliLinux-from-wsl + 1
+[2023-06-09T16:39:03.657698639Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/minikube/exec
+[2023-06-09T16:39:03.658713906Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/minikube/exec (1.014409ms)
+[2023-06-09T16:39:03.659194953Z][docker-desktop-user-distro][I] (220898eb) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerStartCliLinux-from-wsl","count":1}
+[2023-06-09T16:39:03.660352232Z][docker-desktop-user-distro][I] (220898eb) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.179749ms): OK
+[2023-06-09T16:39:03.660423917Z][docker-desktop-user-distro][I] usage containerStartCliLinux-from-wsl + 1
+[2023-06-09T16:39:03.660453860Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/exec/00f90110924a9be76fb3b7aa452efdbe4a586a31328694ee611e40245f2835a3/start
+[2023-06-09T16:39:03.661335057Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-09T16:39:03.679949935Z][docker-desktop-user-distro][I] proxy << POST /v1.43/exec/00f90110924a9be76fb3b7aa452efdbe4a586a31328694ee611e40245f2835a3/start (19.486266ms)
+[2023-06-09T16:39:03.680350714Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/exec/00f90110924a9be76fb3b7aa452efdbe4a586a31328694ee611e40245f2835a3/json
+[2023-06-09T16:39:03.681400491Z][docker-desktop-user-distro][I] proxy << GET /v1.43/exec/00f90110924a9be76fb3b7aa452efdbe4a586a31328694ee611e40245f2835a3/json (1.046664ms)
+[2023-06-09T16:39:03.683527882Z][docker-desktop-user-distro][I] (0795ea27-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:03.685607619Z][docker-desktop-user-distro][I] (0795ea27-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (2.076537ms): OK
+[2023-06-09T16:39:03.956887364Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:03.957862598Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (984.875µs)
+[2023-06-09T16:39:03.958284888Z][docker-desktop-user-distro][I] proxy >> HEAD /v1.43/containers/minikube/archive?path=%2Fhome%2Fdocker%2F.ssh%2Fauthorized_keys
+[2023-06-09T16:39:03.960976215Z][docker-desktop-user-distro][I] proxy << HEAD /v1.43/containers/minikube/archive?path=%2Fhome%2Fdocker%2F.ssh%2Fauthorized_keys (2.684367ms)
+[2023-06-09T16:39:03.961370885Z][docker-desktop-user-distro][I] proxy >> PUT /v1.43/containers/minikube/archive?copyUIDGID=true&noOverwriteDirNonDir=true&path=%2Fhome%2Fdocker%2F.ssh
+[2023-06-09T16:39:03.967161564Z][docker-desktop-user-distro][I] proxy << PUT /v1.43/containers/minikube/archive?copyUIDGID=true&noOverwriteDirNonDir=true&path=%2Fhome%2Fdocker%2F.ssh (5.782001ms)
+[2023-06-09T16:39:03.968878089Z][docker-desktop-user-distro][I] (4a37b288-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:03.970564517Z][docker-desktop-user-distro][I] (4a37b288-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.679018ms): OK
+[2023-06-09T16:39:04.083087309Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:04.084062057Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (993.544µs)
+[2023-06-09T16:39:04.084501387Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:04.089126587Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (4.622173ms)
+[2023-06-09T16:39:04.091606423Z][docker-desktop-user-distro][I] (79326a23-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:04.092946101Z][docker-desktop-user-distro][I] (79326a23-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.334402ms): OK
+[2023-06-09T16:39:04.138143426Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:04.138980806Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (847.207µs)
+[2023-06-09T16:39:04.139299674Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:04.141613845Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.314612ms)
+[2023-06-09T16:39:04.142709441Z][docker-desktop-user-distro][I] (97df1222) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerExecCliLinux-from-wsl","count":1}
+[2023-06-09T16:39:04.143825103Z][docker-desktop-user-distro][I] (97df1222) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.132244ms): OK
+[2023-06-09T16:39:04.143853270Z][docker-desktop-user-distro][I] usage containerExecCliLinux-from-wsl + 1
+[2023-06-09T16:39:04.143863281Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/minikube/exec
+[2023-06-09T16:39:04.144769934Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/minikube/exec (904.629µs)
+[2023-06-09T16:39:04.145152130Z][docker-desktop-user-distro][I] (bd73cdef) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerStartCliLinux-from-wsl","count":1}
+[2023-06-09T16:39:04.146271599Z][docker-desktop-user-distro][I] (bd73cdef) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.142073ms): OK
+[2023-06-09T16:39:04.146316730Z][docker-desktop-user-distro][I] usage containerStartCliLinux-from-wsl + 1
+[2023-06-09T16:39:04.146327704Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/exec/34aa29ebeca3c44cba04df7688930854ecb95dc1de37786ca1272e659146b0b4/start
+[2023-06-09T16:39:04.147363421Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-09T16:39:04.205607738Z][docker-desktop-user-distro][I] proxy << POST /v1.43/exec/34aa29ebeca3c44cba04df7688930854ecb95dc1de37786ca1272e659146b0b4/start (59.267794ms)
+[2023-06-09T16:39:04.205914597Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/exec/34aa29ebeca3c44cba04df7688930854ecb95dc1de37786ca1272e659146b0b4/json
+[2023-06-09T16:39:04.206831338Z][docker-desktop-user-distro][I] proxy << GET /v1.43/exec/34aa29ebeca3c44cba04df7688930854ecb95dc1de37786ca1272e659146b0b4/json (916.864µs)
+[2023-06-09T16:39:04.208480166Z][docker-desktop-user-distro][I] (a9c23c41-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:04.209789219Z][docker-desktop-user-distro][I] (a9c23c41-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.305084ms): OK
+[2023-06-09T16:39:04.250615628Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:04.251409761Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (803.608µs)
+[2023-06-09T16:39:04.251745162Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:04.254652937Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.906662ms)
+[2023-06-09T16:39:04.256365035Z][docker-desktop-user-distro][I] (242f657c-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:04.257435623Z][docker-desktop-user-distro][I] (242f657c-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.06408ms): OK
+[2023-06-09T16:39:04.299591255Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:04.300404669Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (823.966µs)
+[2023-06-09T16:39:04.300743862Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:04.303225424Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.481204ms)
+[2023-06-09T16:39:04.305160588Z][docker-desktop-user-distro][I] (51f641fd-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:04.306237947Z][docker-desktop-user-distro][I] (51f641fd-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.074145ms): OK
+[2023-06-09T16:39:04.504189212Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:04.505003249Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (822.717µs)
+[2023-06-09T16:39:04.505316143Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:04.507766734Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.451087ms)
+[2023-06-09T16:39:04.509892805Z][docker-desktop-user-distro][I] (2c6d43b0-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:04.511120953Z][docker-desktop-user-distro][I] (2c6d43b0-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.22474ms): OK
+[2023-06-09T16:39:04.729004195Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:04.729940001Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (947.004µs)
+[2023-06-09T16:39:04.730280110Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:04.732985833Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.701468ms)
+[2023-06-09T16:39:04.735439129Z][docker-desktop-user-distro][I] (2eb1ad80-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:04.736607507Z][docker-desktop-user-distro][I] (2eb1ad80-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.164739ms): OK
+[2023-06-09T16:39:04.908804757Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:04.909669387Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (875.697µs)
+[2023-06-09T16:39:04.909984372Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:04.913293831Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.308425ms)
+[2023-06-09T16:39:04.915285178Z][docker-desktop-user-distro][I] (53e6fa48-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:04.916295921Z][docker-desktop-user-distro][I] (53e6fa48-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.006899ms): OK
+[2023-06-09T16:39:05.184593547Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:05.185520043Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (939.865µs)
+[2023-06-09T16:39:05.185854365Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:05.188750640Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.896222ms)
+[2023-06-09T16:39:05.190851666Z][docker-desktop-user-distro][I] (96911056-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:05.191915548Z][docker-desktop-user-distro][I] (96911056-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.06133ms): OK
+[2023-06-09T16:39:05.316231447Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:05.317198599Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (977.715µs)
+[2023-06-09T16:39:05.317769711Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:05.320452270Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.641225ms)
+[2023-06-09T16:39:05.322524754Z][docker-desktop-user-distro][I] (31d96854-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:05.323587064Z][docker-desktop-user-distro][I] (31d96854-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.059303ms): OK
+[2023-06-09T16:39:05.549718924Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:05.550731217Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.024787ms)
+[2023-06-09T16:39:05.551179808Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:05.554309172Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.127063ms)
+[2023-06-09T16:39:05.556860024Z][docker-desktop-user-distro][I] (423bd101-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:05.558247748Z][docker-desktop-user-distro][I] (423bd101-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.380478ms): OK
+[2023-06-09T16:39:08.752731388Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:08.753624879Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (903.885µs)
+[2023-06-09T16:39:08.753887068Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:08.756680039Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.792042ms)
+[2023-06-09T16:39:08.759247860Z][docker-desktop-user-distro][I] (9aa458b0-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:08.760391446Z][docker-desktop-user-distro][I] (9aa458b0-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.139566ms): OK
+[2023-06-09T16:39:08.943233244Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:08.944083697Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (861.214µs)
+[2023-06-09T16:39:08.944388534Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:08.946708290Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.320005ms)
+[2023-06-09T16:39:08.949011209Z][docker-desktop-user-distro][I] (2e24b8d8-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:08.950317123Z][docker-desktop-user-distro][I] (2e24b8d8-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.304103ms): OK
+[2023-06-09T16:39:08.992408989Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:08.993294838Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (894.941µs)
+[2023-06-09T16:39:08.993583631Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:08.996546920Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.962265ms)
+[2023-06-09T16:39:08.998781333Z][docker-desktop-user-distro][I] (5ca113dd-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:08.999800048Z][docker-desktop-user-distro][I] (5ca113dd-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.002887ms): OK
+[2023-06-09T16:39:09.130497757Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:09.131396312Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (911.055µs)
+[2023-06-09T16:39:09.131665910Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:09.134237028Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.571052ms)
+[2023-06-09T16:39:09.136056078Z][docker-desktop-user-distro][I] (1c0c5825-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:09.137144135Z][docker-desktop-user-distro][I] (1c0c5825-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.082939ms): OK
+[2023-06-09T16:39:09.177267487Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:09.177994233Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:39:09.178112687Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (856.78µs)
+[2023-06-09T16:39:09.178573849Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:09.178679111Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (699.081µs)
+[2023-06-09T16:39:09.178987066Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:39:09.181643474Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.067764ms)
+[2023-06-09T16:39:09.182265758Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.295591ms)
+[2023-06-09T16:39:09.184037217Z][docker-desktop-user-distro][I] (cb8e1f4a-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:09.184567951Z][docker-desktop-user-distro][I] (c4d40c5c-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:39:09.185147575Z][docker-desktop-user-distro][I] (cb8e1f4a-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.107438ms): OK
+[2023-06-09T16:39:09.186073510Z][docker-desktop-user-distro][I] (c4d40c5c-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.503215ms): OK
+[2023-06-09T16:40:42.950956835Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:42.952497541Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.605593ms)
+[2023-06-09T16:40:42.952878236Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/version
+[2023-06-09T16:40:42.958968301Z][docker-desktop-user-distro][I] proxy << GET /v1.43/version (6.087492ms)
+[2023-06-09T16:40:42.960680076Z][docker-desktop-user-distro][I] (119244ae-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:42.962035749Z][docker-desktop-user-distro][I] (119244ae-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.350054ms): OK
+[2023-06-09T16:40:43.002287450Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:43.003192252Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (913.152µs)
+[2023-06-09T16:40:43.041139866Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/info
+[2023-06-09T16:40:43.046731818Z][docker-desktop-user-distro][I] proxy << GET /v1.43/info (5.589567ms)
+[2023-06-09T16:40:43.049827967Z][docker-desktop-user-distro][I] (e746a0bd-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:43.050957102Z][docker-desktop-user-distro][I] (e746a0bd-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.128363ms): OK
+[2023-06-09T16:40:43.099175313Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:43.100036752Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (870.899µs)
+[2023-06-09T16:40:43.135996950Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/info
+[2023-06-09T16:40:43.140812005Z][docker-desktop-user-distro][I] proxy << GET /v1.43/info (4.813363ms)
+[2023-06-09T16:40:43.143344625Z][docker-desktop-user-distro][I] (364c3265-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:43.144457474Z][docker-desktop-user-distro][I] (364c3265-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.110675ms): OK
+[2023-06-09T16:40:43.191978735Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:43.192748233Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (780.287µs)
+[2023-06-09T16:40:43.193068527Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/images/json
+[2023-06-09T16:40:43.194508574Z][docker-desktop-user-distro][I] proxy << GET /v1.43/images/json (1.438633ms)
+[2023-06-09T16:40:43.195871363Z][docker-desktop-user-distro][I] (64e90bbb-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:43.196887030Z][docker-desktop-user-distro][I] (64e90bbb-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (998.37µs): OK
+[2023-06-09T16:40:43.235135172Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:43.236047536Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (924.125µs)
+[2023-06-09T16:40:43.236373326Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:40:43.237221640Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (846.396µs)
+[2023-06-09T16:40:43.238513721Z][docker-desktop-user-distro][I] (fb89beac-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:43.239581254Z][docker-desktop-user-distro][I] (fb89beac-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.062972ms): OK
+[2023-06-09T16:40:43.282644927Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:43.283548796Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (914.956µs)
+[2023-06-09T16:40:43.283874020Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:40:43.284556067Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (681.447µs)
+[2023-06-09T16:40:43.285775332Z][docker-desktop-user-distro][I] (38433328-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:43.286871365Z][docker-desktop-user-distro][I] (38433328-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.092751ms): OK
+[2023-06-09T16:40:43.324065498Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:43.324827334Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (772.427µs)
+[2023-06-09T16:40:43.325132745Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:40:43.325895904Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (761.963µs)
+[2023-06-09T16:40:43.327138775Z][docker-desktop-user-distro][I] (4262fb72-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:43.328091517Z][docker-desktop-user-distro][I] (4262fb72-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (949.617µs): OK
+[2023-06-09T16:40:43.368439084Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:43.369210412Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (785.908µs)
+[2023-06-09T16:40:43.369519895Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:40:43.370283231Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (745.93µs)
+[2023-06-09T16:40:43.371595651Z][docker-desktop-user-distro][I] (d93e1798-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:43.372576533Z][docker-desktop-user-distro][I] (d93e1798-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (978.583µs): OK
+[2023-06-09T16:40:43.409703049Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:43.410609344Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (917.348µs)
+[2023-06-09T16:40:43.410933928Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:40:43.411554094Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (617.056µs)
+[2023-06-09T16:40:43.412817545Z][docker-desktop-user-distro][I] (51fa360e-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:43.413930927Z][docker-desktop-user-distro][I] (51fa360e-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.108936ms): OK
+[2023-06-09T16:40:43.459253427Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:43.460591854Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.281361ms)
+[2023-06-09T16:40:43.461123343Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:40:43.461839823Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (714.658µs)
+[2023-06-09T16:40:43.463240791Z][docker-desktop-user-distro][I] (bdf9736f-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:43.464421988Z][docker-desktop-user-distro][I] (bdf9736f-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.178646ms): OK
+[2023-06-09T16:40:44.533678798Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:44.534575397Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (908.523µs)
+[2023-06-09T16:40:44.534848932Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:40:44.535614130Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (763.648µs)
+[2023-06-09T16:40:44.537120599Z][docker-desktop-user-distro][I] (024b5b47-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:44.538242940Z][docker-desktop-user-distro][I] (024b5b47-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.118938ms): OK
+[2023-06-09T16:40:44.919591729Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:44.920541664Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (962.247µs)
+[2023-06-09T16:40:44.920898781Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:40:44.922941859Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.038928ms)
+[2023-06-09T16:40:44.927082131Z][docker-desktop-user-distro][I] (067c6d4c-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:44.928667180Z][docker-desktop-user-distro][I] (067c6d4c-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.583377ms): OK
+[2023-06-09T16:40:45.886706608Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:45.887681249Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (987.123µs)
+[2023-06-09T16:40:45.888012384Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:40:45.888711869Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (699.082µs)
+[2023-06-09T16:40:45.890092753Z][docker-desktop-user-distro][I] (46baff77-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:45.891097493Z][docker-desktop-user-distro][I] (46baff77-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.002182ms): OK
+[2023-06-09T16:40:47.041318813Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:47.042184538Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (875.242µs)
+[2023-06-09T16:40:47.042502342Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:40:47.043164279Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (661.336µs)
+[2023-06-09T16:40:47.044400402Z][docker-desktop-user-distro][I] (7c9c67da-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:47.045334077Z][docker-desktop-user-distro][I] (7c9c67da-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (930.666µs): OK
+[2023-06-09T16:40:48.364567495Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:48.365488303Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (933.613µs)
+[2023-06-09T16:40:48.365772734Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:40:48.366442111Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (667.537µs)
+[2023-06-09T16:40:48.367691200Z][docker-desktop-user-distro][I] (1b2dc0a7-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:48.368801966Z][docker-desktop-user-distro][I] (1b2dc0a7-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.10859ms): OK
+[2023-06-09T16:40:51.535449983Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:51.536252945Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (823.069µs)
+[2023-06-09T16:40:51.536591842Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:40:51.537324860Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (732.639µs)
+[2023-06-09T16:40:51.538706458Z][docker-desktop-user-distro][I] (4129483b-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:51.539835846Z][docker-desktop-user-distro][I] (4129483b-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.126872ms): OK
+[2023-06-09T16:40:53.941849929Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:40:53.942825207Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (985.944µs)
+[2023-06-09T16:40:53.943104587Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:40:53.943725236Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (620.302µs)
+[2023-06-09T16:40:53.945065187Z][docker-desktop-user-distro][I] (eaf0acdb-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:40:53.946226919Z][docker-desktop-user-distro][I] (eaf0acdb-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.158121ms): OK
+[2023-06-09T16:41:02.557604334Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:02.558519335Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (927.833µs)
+[2023-06-09T16:41:02.558833374Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:02.559483471Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (649.696µs)
+[2023-06-09T16:41:02.560756210Z][docker-desktop-user-distro][I] (b6934d3c-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:02.561811834Z][docker-desktop-user-distro][I] (b6934d3c-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.052199ms): OK
+[2023-06-09T16:41:02.600507805Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:02.601295142Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (797.549µs)
+[2023-06-09T16:41:02.601649330Z][docker-desktop-user-distro][I] (1c20e4fe) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerDeleteCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:02.602785649Z][docker-desktop-user-distro][I] (1c20e4fe) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.180159ms): OK
+[2023-06-09T16:41:02.602835813Z][docker-desktop-user-distro][I] usage containerDeleteCliLinux-from-wsl + 1
+[2023-06-09T16:41:02.602865193Z][docker-desktop-user-distro][I] proxy >> DELETE /v1.43/containers/minikube?force=1&v=1
+[2023-06-09T16:41:02.603619863Z][docker-desktop-user-distro][I] proxy << DELETE /v1.43/containers/minikube?force=1&v=1 (754.335µs)
+[2023-06-09T16:41:02.604839334Z][docker-desktop-user-distro][I] (3c8d8470-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:02.605861943Z][docker-desktop-user-distro][I] (3c8d8470-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.002706ms): OK
+[2023-06-09T16:41:02.645283603Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:02.646118708Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (845.705µs)
+[2023-06-09T16:41:02.646523502Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:02.647266206Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (742.074µs)
+[2023-06-09T16:41:02.648596008Z][docker-desktop-user-distro][I] (ccd2db5a-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:02.649686943Z][docker-desktop-user-distro][I] (ccd2db5a-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.087899ms): OK
+[2023-06-09T16:41:02.690981823Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:02.691777555Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (816.492µs)
+[2023-06-09T16:41:02.692153430Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/networks/minikube
+[2023-06-09T16:41:02.693063514Z][docker-desktop-user-distro][I] proxy << GET /v1.43/networks/minikube (909.21µs)
+[2023-06-09T16:41:02.694300477Z][docker-desktop-user-distro][I] (51328620-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:02.695500032Z][docker-desktop-user-distro][I] (51328620-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.195129ms): OK
+[2023-06-09T16:41:02.734073966Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:02.734986145Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (925.22µs)
+[2023-06-09T16:41:02.735308316Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/networks/minikube
+[2023-06-09T16:41:02.736220784Z][docker-desktop-user-distro][I] proxy << GET /v1.43/networks/minikube (912.18µs)
+[2023-06-09T16:41:02.737527193Z][docker-desktop-user-distro][I] (c0b9cea2-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:02.738550353Z][docker-desktop-user-distro][I] (c0b9cea2-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.019567ms): OK
+[2023-06-09T16:41:03.814979458Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:03.815882572Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (916.644µs)
+[2023-06-09T16:41:03.816196573Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/networks/minikube
+[2023-06-09T16:41:03.817082847Z][docker-desktop-user-distro][I] proxy << GET /v1.43/networks/minikube (885.9µs)
+[2023-06-09T16:41:03.819111461Z][docker-desktop-user-distro][I] (19914111-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:03.820235141Z][docker-desktop-user-distro][I] (19914111-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.119157ms): OK
+[2023-06-09T16:41:03.859605698Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:03.860486219Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (890.648µs)
+[2023-06-09T16:41:03.860788909Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/networks/minikube
+[2023-06-09T16:41:03.861792834Z][docker-desktop-user-distro][I] proxy << GET /v1.43/networks/minikube (1.003101ms)
+[2023-06-09T16:41:03.863080650Z][docker-desktop-user-distro][I] (680af111-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:03.864095016Z][docker-desktop-user-distro][I] (680af111-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.010361ms): OK
+[2023-06-09T16:41:03.901936274Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:03.902841644Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (916.069µs)
+[2023-06-09T16:41:03.903146183Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/networks/bridge
+[2023-06-09T16:41:03.904148809Z][docker-desktop-user-distro][I] proxy << GET /v1.43/networks/bridge (1.001456ms)
+[2023-06-09T16:41:03.905425899Z][docker-desktop-user-distro][I] (f235c583-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:03.906469624Z][docker-desktop-user-distro][I] (f235c583-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.041644ms): OK
+[2023-06-09T16:41:03.948366846Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:03.949329112Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (973.019µs)
+[2023-06-09T16:41:03.949819707Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/networks/create
+[2023-06-09T16:41:04.668712043Z][docker-desktop-user-distro][I] proxy << POST /v1.43/networks/create (718.885363ms)
+[2023-06-09T16:41:04.670992488Z][docker-desktop-user-distro][I] (e7481ad3-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:04.673114951Z][docker-desktop-user-distro][I] (e7481ad3-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (2.113195ms): OK
+[2023-06-09T16:41:04.743715372Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:04.744933629Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.235575ms)
+[2023-06-09T16:41:04.745414416Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/json?all=1
+[2023-06-09T16:41:04.748902959Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/json?all=1 (3.488969ms)
+[2023-06-09T16:41:04.750845539Z][docker-desktop-user-distro][I] (179b915a-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:04.752471609Z][docker-desktop-user-distro][I] (179b915a-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.602991ms): OK
+[2023-06-09T16:41:04.821451589Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:04.822658329Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.217512ms)
+[2023-06-09T16:41:04.823003830Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/volumes/create
+[2023-06-09T16:41:04.827123667Z][docker-desktop-user-distro][I] proxy << POST /v1.43/volumes/create (4.119121ms)
+[2023-06-09T16:41:04.828560186Z][docker-desktop-user-distro][I] (32e7e64b-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:04.830096490Z][docker-desktop-user-distro][I] (32e7e64b-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.530888ms): OK
+[2023-06-09T16:41:04.872046510Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:04.873026138Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (989.941µs)
+[2023-06-09T16:41:04.873682070Z][docker-desktop-user-distro][I] (0f417cb0) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerCreateCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:04.874824673Z][docker-desktop-user-distro][I] (0f417cb0) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.165967ms): OK
+[2023-06-09T16:41:04.874874616Z][docker-desktop-user-distro][I] usage containerCreateCliLinux-from-wsl + 1
+[2023-06-09T16:41:04.874890136Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/create?name=minikube-preload-sidecar
+[2023-06-09T16:41:05.005877216Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/create?name=minikube-preload-sidecar (130.981626ms)
+[2023-06-09T16:41:05.009327392Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/5c420b6cce790ec5565c7b55d88035eafe6258104b6462c368b0e75bab364eec/attach?stderr=1&stdout=1&stream=1
+[2023-06-09T16:41:05.010313383Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-09T16:41:05.010771340Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/5c420b6cce790ec5565c7b55d88035eafe6258104b6462c368b0e75bab364eec/wait?condition=removed
+[2023-06-09T16:41:05.011977833Z][docker-desktop-user-distro][I] (f0f21274) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerStartCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:05.013305582Z][docker-desktop-user-distro][I] (f0f21274) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.348154ms): OK
+[2023-06-09T16:41:05.013351116Z][docker-desktop-user-distro][I] usage containerStartCliLinux-from-wsl + 1
+[2023-06-09T16:41:05.013377034Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/5c420b6cce790ec5565c7b55d88035eafe6258104b6462c368b0e75bab364eec/start
+[2023-06-09T16:41:05.014703691Z][docker-desktop-user-distro][I] (aa349a46) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"exposePortCountCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:05.015940001Z][docker-desktop-user-distro][I] (aa349a46) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.257446ms): OK
+[2023-06-09T16:41:05.015982466Z][docker-desktop-user-distro][I] usage exposePortCountCliLinux-from-wsl + 1
+[2023-06-09T16:41:05.016715942Z][docker-desktop-user-distro][I] vpnkitApprover.Approve([])
+[2023-06-09T16:41:05.017812803Z][docker-desktop-user-distro][I] vpnkitExposer.Add(approver-5300713877879713936, approver-5300713877879713936, [])
+[2023-06-09T16:41:05.017847062Z][docker-desktop-user-distro][I] vpnkitExposer.Remove(approver-5300713877879713936)
+[2023-06-09T16:41:05.299247799Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/5c420b6cce790ec5565c7b55d88035eafe6258104b6462c368b0e75bab364eec/start (285.863054ms)
+[2023-06-09T16:41:05.300482320Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/5c420b6cce790ec5565c7b55d88035eafe6258104b6462c368b0e75bab364eec/attach?stderr=1&stdout=1&stream=1 (291.162233ms)
+[2023-06-09T16:41:05.609726664Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/5c420b6cce790ec5565c7b55d88035eafe6258104b6462c368b0e75bab364eec/wait?condition=removed (598.949248ms)
+[2023-06-09T16:41:05.613208415Z][docker-desktop-user-distro][I] (a3ad8360-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:05.614421116Z][docker-desktop-user-distro][I] (a3ad8360-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.206155ms): OK
+[2023-06-09T16:41:05.657961843Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:05.658752798Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (801.607µs)
+[2023-06-09T16:41:05.659484828Z][docker-desktop-user-distro][I] (9ef5d77d) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerCreateCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:05.660584713Z][docker-desktop-user-distro][I] (9ef5d77d) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.132231ms): OK
+[2023-06-09T16:41:05.660619144Z][docker-desktop-user-distro][I] usage containerCreateCliLinux-from-wsl + 1
+[2023-06-09T16:41:05.660636362Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/create
+[2023-06-09T16:41:05.660844801Z][docker-desktop-user-distro][I] Requested propagation is rprivate. Skipping mount-point propagation check for /home/nikki/.minikube/cache/preloaded-tarball/preloaded-images-k8s-v18-v1.26.3-docker-overlay2-amd64.tar.lz4
+[2023-06-09T16:41:05.681434902Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/create (20.791303ms)
+[2023-06-09T16:41:05.684099892Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/e29e1bd133e144d24fdc387eaa7e776fdc7e1e31b725b5b1e4a5b5b66e1e1b04/attach?stderr=1&stdout=1&stream=1
+[2023-06-09T16:41:05.684915859Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-09T16:41:05.685482364Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/e29e1bd133e144d24fdc387eaa7e776fdc7e1e31b725b5b1e4a5b5b66e1e1b04/wait?condition=removed
+[2023-06-09T16:41:05.686774656Z][docker-desktop-user-distro][I] (f5e2c38a) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerStartCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:05.688026815Z][docker-desktop-user-distro][I] (f5e2c38a) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.274329ms): OK
+[2023-06-09T16:41:05.688066309Z][docker-desktop-user-distro][I] usage containerStartCliLinux-from-wsl + 1
+[2023-06-09T16:41:05.688081790Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/e29e1bd133e144d24fdc387eaa7e776fdc7e1e31b725b5b1e4a5b5b66e1e1b04/start
+[2023-06-09T16:41:05.689533303Z][docker-desktop-user-distro][I] (01308ae8) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"wsl2DistroMountCountCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:05.690686529Z][docker-desktop-user-distro][I] (01308ae8) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.166864ms): OK
+[2023-06-09T16:41:05.690735166Z][docker-desktop-user-distro][I] usage wsl2DistroMountCountCliLinux-from-wsl + 1
+[2023-06-09T16:41:05.690779254Z][docker-desktop-user-distro][I] (9cb5f3c0) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"exposePortCountCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:05.691951716Z][docker-desktop-user-distro][I] (9cb5f3c0) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.195209ms): OK
+[2023-06-09T16:41:05.692007148Z][docker-desktop-user-distro][I] usage exposePortCountCliLinux-from-wsl + 1
+[2023-06-09T16:41:05.692858873Z][docker-desktop-user-distro][I] vpnkitApprover.Approve([])
+[2023-06-09T16:41:05.693996754Z][docker-desktop-user-distro][I] vpnkitExposer.Add(approver-997057756647537048, approver-997057756647537048, [])
+[2023-06-09T16:41:05.694055343Z][docker-desktop-user-distro][I] vpnkitExposer.Remove(approver-997057756647537048)
+[2023-06-09T16:41:06.027961813Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/e29e1bd133e144d24fdc387eaa7e776fdc7e1e31b725b5b1e4a5b5b66e1e1b04/start (339.872684ms)
+[2023-06-09T16:41:08.351156935Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/e29e1bd133e144d24fdc387eaa7e776fdc7e1e31b725b5b1e4a5b5b66e1e1b04/attach?stderr=1&stdout=1&stream=1 (2.667027057s)
+[2023-06-09T16:41:09.418082475Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/e29e1bd133e144d24fdc387eaa7e776fdc7e1e31b725b5b1e4a5b5b66e1e1b04/wait?condition=removed (3.732598858s)
+[2023-06-09T16:41:09.421661192Z][docker-desktop-user-distro][I] (0d2ec37a-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:09.423606617Z][docker-desktop-user-distro][I] (0d2ec37a-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.911267ms): OK
+[2023-06-09T16:41:09.481273294Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:09.482158531Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (878.553µs)
+[2023-06-09T16:41:09.511942253Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/info
+[2023-06-09T16:41:09.517759953Z][docker-desktop-user-distro][I] proxy << GET /v1.43/info (5.816816ms)
+[2023-06-09T16:41:09.519535254Z][docker-desktop-user-distro][I] (920ed892-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:09.520636946Z][docker-desktop-user-distro][I] (920ed892-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.097105ms): OK
+[2023-06-09T16:41:09.561655700Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:09.562518848Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (876.164µs)
+[2023-06-09T16:41:09.563239861Z][docker-desktop-user-distro][I] (b76dd024) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerCreateCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:09.564477263Z][docker-desktop-user-distro][I] (b76dd024) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.284976ms): OK
+[2023-06-09T16:41:09.564541436Z][docker-desktop-user-distro][I] usage containerCreateCliLinux-from-wsl + 1
+[2023-06-09T16:41:09.564555497Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/create?name=minikube
+[2023-06-09T16:41:09.564821861Z][docker-desktop-user-distro][I] Requested propagation is rprivate. Skipping mount-point propagation check for /lib/modules
+[2023-06-09T16:41:09.589615035Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/create?name=minikube (25.053956ms)
+[2023-06-09T16:41:09.592445316Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/c921e874009ee921afa6251f7c30c3cc0835c001a62b76dd98ded854f6220ade/wait?condition=next-exit
+[2023-06-09T16:41:09.593660100Z][docker-desktop-user-distro][I] (4479d521) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerStartCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:09.594880875Z][docker-desktop-user-distro][I] (4479d521) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.248211ms): OK
+[2023-06-09T16:41:09.594917006Z][docker-desktop-user-distro][I] usage containerStartCliLinux-from-wsl + 1
+[2023-06-09T16:41:09.594931648Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/c921e874009ee921afa6251f7c30c3cc0835c001a62b76dd98ded854f6220ade/start
+[2023-06-09T16:41:09.596370183Z][docker-desktop-user-distro][I] (bf045990) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"wsl2DistroMountCountCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:09.597948499Z][docker-desktop-user-distro][I] (bf045990) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.583497ms): OK
+[2023-06-09T16:41:09.598020164Z][docker-desktop-user-distro][I] usage wsl2DistroMountCountCliLinux-from-wsl + 1
+[2023-06-09T16:41:09.598105185Z][docker-desktop-user-distro][I] (a87c693d) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"exposePortCountCliLinux-from-wsl","count":5}
+[2023-06-09T16:41:09.599412037Z][docker-desktop-user-distro][I] (a87c693d) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.342381ms): OK
+[2023-06-09T16:41:09.599457461Z][docker-desktop-user-distro][I] usage exposePortCountCliLinux-from-wsl + 5
+[2023-06-09T16:41:09.600274246Z][docker-desktop-user-distro][I] vpnkitApprover.Approve([TCP 127.0.0.1:0 TCP 127.0.0.1:0 TCP 127.0.0.1:0 TCP 127.0.0.1:0 TCP 127.0.0.1:0])
+[2023-06-09T16:41:09.601348284Z][docker-desktop-user-distro][I] vpnkitExposer.Add(approver-6927981205783292305, approver-6927981205783292305, [])
+[2023-06-09T16:41:09.601378428Z][docker-desktop-user-distro][I] vpnkitExposer.Remove(approver-6927981205783292305)
+[2023-06-09T16:41:11.302854724Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/c921e874009ee921afa6251f7c30c3cc0835c001a62b76dd98ded854f6220ade/start (1.707907995s)
+[2023-06-09T16:41:11.307434014Z][docker-desktop-user-distro][I] Context canceled, closing connection for "/v1.43/containers/c921e874009ee921afa6251f7c30c3cc0835c001a62b76dd98ded854f6220ade/wait?condition=next-exit"
+[2023-06-09T16:41:11.308060695Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/c921e874009ee921afa6251f7c30c3cc0835c001a62b76dd98ded854f6220ade/wait?condition=next-exit (1.715610916s)
+[2023-06-09T16:41:11.308227078Z][docker-desktop-user-distro][I] (fad79497-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:11.309909942Z][docker-desktop-user-distro][I] (fad79497-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.676982ms): OK
+[2023-06-09T16:41:11.371724655Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:11.372625041Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (911.268µs)
+[2023-06-09T16:41:11.372932925Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:11.376099567Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.16339ms)
+[2023-06-09T16:41:11.378109739Z][docker-desktop-user-distro][I] (62a66b66-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:11.379222176Z][docker-desktop-user-distro][I] (62a66b66-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.1077ms): OK
+[2023-06-09T16:41:11.425715321Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:11.426550896Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (845.475µs)
+[2023-06-09T16:41:11.426869739Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:11.429716117Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.845398ms)
+[2023-06-09T16:41:11.431958180Z][docker-desktop-user-distro][I] (115f5d62-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:11.433182946Z][docker-desktop-user-distro][I] (115f5d62-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.220664ms): OK
+[2023-06-09T16:41:11.475419373Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:11.476214570Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (804.632µs)
+[2023-06-09T16:41:11.476922706Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:11.479680519Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.756127ms)
+[2023-06-09T16:41:11.480573718Z][docker-desktop-user-distro][I] (baec7bf1) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerExecCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:11.481742528Z][docker-desktop-user-distro][I] (baec7bf1) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.187202ms): OK
+[2023-06-09T16:41:11.481774674Z][docker-desktop-user-distro][I] usage containerExecCliLinux-from-wsl + 1
+[2023-06-09T16:41:11.481785502Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/minikube/exec
+[2023-06-09T16:41:11.483014571Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/minikube/exec (1.225879ms)
+[2023-06-09T16:41:11.483533869Z][docker-desktop-user-distro][I] (8977493f) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerStartCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:11.484682901Z][docker-desktop-user-distro][I] (8977493f) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.179245ms): OK
+[2023-06-09T16:41:11.484718872Z][docker-desktop-user-distro][I] usage containerStartCliLinux-from-wsl + 1
+[2023-06-09T16:41:11.484763229Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/exec/cd59648667acbce6c599efee4e808be67219c1170922633803ba68a99303488f/start
+[2023-06-09T16:41:11.485637881Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-09T16:41:11.505044528Z][docker-desktop-user-distro][I] proxy << POST /v1.43/exec/cd59648667acbce6c599efee4e808be67219c1170922633803ba68a99303488f/start (20.270132ms)
+[2023-06-09T16:41:11.505245283Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/exec/cd59648667acbce6c599efee4e808be67219c1170922633803ba68a99303488f/json
+[2023-06-09T16:41:11.506145367Z][docker-desktop-user-distro][I] proxy << GET /v1.43/exec/cd59648667acbce6c599efee4e808be67219c1170922633803ba68a99303488f/json (898.881µs)
+[2023-06-09T16:41:11.507776482Z][docker-desktop-user-distro][I] (7bd0f790-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:11.508944215Z][docker-desktop-user-distro][I] (7bd0f790-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.162809ms): OK
+[2023-06-09T16:41:11.661124268Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:11.662002161Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (888.617µs)
+[2023-06-09T16:41:11.662339374Z][docker-desktop-user-distro][I] proxy >> HEAD /v1.43/containers/minikube/archive?path=%2Fhome%2Fdocker%2F.ssh%2Fauthorized_keys
+[2023-06-09T16:41:11.664777635Z][docker-desktop-user-distro][I] proxy << HEAD /v1.43/containers/minikube/archive?path=%2Fhome%2Fdocker%2F.ssh%2Fauthorized_keys (2.433887ms)
+[2023-06-09T16:41:11.665249977Z][docker-desktop-user-distro][I] proxy >> PUT /v1.43/containers/minikube/archive?copyUIDGID=true&noOverwriteDirNonDir=true&path=%2Fhome%2Fdocker%2F.ssh
+[2023-06-09T16:41:11.668679641Z][docker-desktop-user-distro][I] proxy << PUT /v1.43/containers/minikube/archive?copyUIDGID=true&noOverwriteDirNonDir=true&path=%2Fhome%2Fdocker%2F.ssh (3.422336ms)
+[2023-06-09T16:41:11.670732743Z][docker-desktop-user-distro][I] (b3dee1c1-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:11.672452383Z][docker-desktop-user-distro][I] (b3dee1c1-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.714591ms): OK
+[2023-06-09T16:41:11.739591407Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:11.740636830Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.055049ms)
+[2023-06-09T16:41:11.741762993Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:11.745403244Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.628222ms)
+[2023-06-09T16:41:11.748033879Z][docker-desktop-user-distro][I] (de1264ac-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:11.749499365Z][docker-desktop-user-distro][I] (de1264ac-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.458343ms): OK
+[2023-06-09T16:41:11.796295207Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:11.797208162Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (921.847µs)
+[2023-06-09T16:41:11.797551193Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:11.802421312Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (4.869609ms)
+[2023-06-09T16:41:11.803372321Z][docker-desktop-user-distro][I] (ea534691) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerExecCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:11.804488627Z][docker-desktop-user-distro][I] (ea534691) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.13465ms): OK
+[2023-06-09T16:41:11.804542866Z][docker-desktop-user-distro][I] usage containerExecCliLinux-from-wsl + 1
+[2023-06-09T16:41:11.804569082Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/containers/minikube/exec
+[2023-06-09T16:41:11.805665650Z][docker-desktop-user-distro][I] proxy << POST /v1.43/containers/minikube/exec (1.094707ms)
+[2023-06-09T16:41:11.806134387Z][docker-desktop-user-distro][I] (d5813225) 2a2f4733-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"containerStartCliLinux-from-wsl","count":1}
+[2023-06-09T16:41:11.807250337Z][docker-desktop-user-distro][I] (d5813225) 2a2f4733-LinuxProxyCMD C<-S c1a977be-BackendAPI POST /usage (1.142944ms): OK
+[2023-06-09T16:41:11.807295405Z][docker-desktop-user-distro][I] usage containerStartCliLinux-from-wsl + 1
+[2023-06-09T16:41:11.807310928Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/exec/0f6c4fcecda1f22bb6b9e3e1ecf7131d983ed5f224759a8f28bf8324fc2e6fc4/start
+[2023-06-09T16:41:11.808149497Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-09T16:41:11.884205168Z][docker-desktop-user-distro][I] proxy << POST /v1.43/exec/0f6c4fcecda1f22bb6b9e3e1ecf7131d983ed5f224759a8f28bf8324fc2e6fc4/start (76.882255ms)
+[2023-06-09T16:41:11.884471797Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/exec/0f6c4fcecda1f22bb6b9e3e1ecf7131d983ed5f224759a8f28bf8324fc2e6fc4/json
+[2023-06-09T16:41:11.885483647Z][docker-desktop-user-distro][I] proxy << GET /v1.43/exec/0f6c4fcecda1f22bb6b9e3e1ecf7131d983ed5f224759a8f28bf8324fc2e6fc4/json (1.009256ms)
+[2023-06-09T16:41:11.886847948Z][docker-desktop-user-distro][I] (8d1bdf13-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:11.887913403Z][docker-desktop-user-distro][I] (8d1bdf13-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.061568ms): OK
+[2023-06-09T16:41:11.926354377Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:11.927245102Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (906.042µs)
+[2023-06-09T16:41:11.927578981Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:11.930251574Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.672499ms)
+[2023-06-09T16:41:11.931996864Z][docker-desktop-user-distro][I] (48ebdd5c-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:11.932947415Z][docker-desktop-user-distro][I] (48ebdd5c-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (948.56µs): OK
+[2023-06-09T16:41:11.971013285Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:11.971824316Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (823.251µs)
+[2023-06-09T16:41:11.972155607Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:11.974561061Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.404816ms)
+[2023-06-09T16:41:11.976472087Z][docker-desktop-user-distro][I] (7e84321e-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:11.977494792Z][docker-desktop-user-distro][I] (7e84321e-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.019106ms): OK
+[2023-06-09T16:41:12.170233811Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:12.171061083Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (842.277µs)
+[2023-06-09T16:41:12.171405051Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:12.173908381Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.502963ms)
+[2023-06-09T16:41:12.175994449Z][docker-desktop-user-distro][I] (53ce1811-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:12.177300408Z][docker-desktop-user-distro][I] (53ce1811-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.274833ms): OK
+[2023-06-09T16:41:12.348442810Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:12.349348220Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (919.932µs)
+[2023-06-09T16:41:12.349661972Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:12.352251103Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.588559ms)
+[2023-06-09T16:41:12.353928199Z][docker-desktop-user-distro][I] (32d66121-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:12.354900152Z][docker-desktop-user-distro][I] (32d66121-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (968.534µs): OK
+[2023-06-09T16:41:12.498252007Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:12.499118878Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (880.757µs)
+[2023-06-09T16:41:12.499421296Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:12.501856349Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.435169ms)
+[2023-06-09T16:41:12.503732962Z][docker-desktop-user-distro][I] (3510691b-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:12.504742121Z][docker-desktop-user-distro][I] (3510691b-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.007076ms): OK
+[2023-06-09T16:41:12.678506741Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:12.679347942Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (850.42µs)
+[2023-06-09T16:41:12.679649406Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:12.682125109Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.475631ms)
+[2023-06-09T16:41:12.684043172Z][docker-desktop-user-distro][I] (b808552c-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:12.685095340Z][docker-desktop-user-distro][I] (b808552c-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.023579ms): OK
+[2023-06-09T16:41:12.852263703Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:12.853079604Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (825.533µs)
+[2023-06-09T16:41:12.853348490Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:12.855928417Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.579617ms)
+[2023-06-09T16:41:12.857794625Z][docker-desktop-user-distro][I] (5e1c8ead-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:12.858798863Z][docker-desktop-user-distro][I] (5e1c8ead-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.00046ms): OK
+[2023-06-09T16:41:13.076623110Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:13.077445286Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (831.627µs)
+[2023-06-09T16:41:13.077802337Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:13.080257935Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.455156ms)
+[2023-06-09T16:41:13.082309016Z][docker-desktop-user-distro][I] (c18f6771-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:13.083301938Z][docker-desktop-user-distro][I] (c18f6771-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (989.824µs): OK
+[2023-06-09T16:41:16.155002023Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:16.156071914Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.078347ms)
+[2023-06-09T16:41:16.156626308Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:16.163966958Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (7.340172ms)
+[2023-06-09T16:41:16.166213489Z][docker-desktop-user-distro][I] (e079ddeb-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:16.168108162Z][docker-desktop-user-distro][I] (e079ddeb-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.893385ms): OK
+[2023-06-09T16:41:16.334399655Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:16.335231099Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (840.995µs)
+[2023-06-09T16:41:16.335503643Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:16.337998925Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.494585ms)
+[2023-06-09T16:41:16.339697425Z][docker-desktop-user-distro][I] (19eef0fa-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:16.340711075Z][docker-desktop-user-distro][I] (19eef0fa-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.011078ms): OK
+[2023-06-09T16:41:16.379221263Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:16.380028850Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (815.595µs)
+[2023-06-09T16:41:16.380413150Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:16.382878050Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.464595ms)
+[2023-06-09T16:41:16.384851585Z][docker-desktop-user-distro][I] (31687589-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:16.385761240Z][docker-desktop-user-distro][I] (31687589-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (906.284µs): OK
+[2023-06-09T16:41:16.470124459Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:16.470981146Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (868.913µs)
+[2023-06-09T16:41:16.471312569Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:16.474145178Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.831853ms)
+[2023-06-09T16:41:16.475924043Z][docker-desktop-user-distro][I] (b5a3ca9d-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:16.476990536Z][docker-desktop-user-distro][I] (b5a3ca9d-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.064095ms): OK
+[2023-06-09T16:41:16.515629844Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:16.516556828Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (938.968µs)
+[2023-06-09T16:41:16.516957660Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:16.519570535Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.612383ms)
+[2023-06-09T16:41:16.521379630Z][docker-desktop-user-distro][I] (23c8ee42-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:16.522376039Z][docker-desktop-user-distro][I] (23c8ee42-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (992.055µs): OK
+[2023-06-09T16:41:16.650970723Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:16.651813264Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (852.261µs)
+[2023-06-09T16:41:16.652115344Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:16.654581465Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.466053ms)
+[2023-06-09T16:41:16.656498405Z][docker-desktop-user-distro][I] (cfb6daeb-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:16.657587426Z][docker-desktop-user-distro][I] (cfb6daeb-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.087692ms): OK
+[2023-06-09T16:41:16.845423561Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:16.846240000Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (825.96µs)
+[2023-06-09T16:41:16.846478419Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:16.849139314Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.661099ms)
+[2023-06-09T16:41:16.850873936Z][docker-desktop-user-distro][I] (56edf3dc-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:16.851824518Z][docker-desktop-user-distro][I] (56edf3dc-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (947.335µs): OK
+[2023-06-09T16:41:16.987946810Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:16.988862808Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (924.742µs)
+[2023-06-09T16:41:16.989133042Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:16.991917673Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.784943ms)
+[2023-06-09T16:41:16.993761625Z][docker-desktop-user-distro][I] (dbf57192-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:16.994678747Z][docker-desktop-user-distro][I] (dbf57192-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (914.217µs): OK
+[2023-06-09T16:41:17.245345391Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:17.246273474Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (944.28µs)
+[2023-06-09T16:41:17.246576498Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:17.249276453Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.699395ms)
+[2023-06-09T16:41:17.251320713Z][docker-desktop-user-distro][I] (68309f96-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:17.252764506Z][docker-desktop-user-distro][I] (68309f96-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.438858ms): OK
+[2023-06-09T16:41:17.419965044Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:17.420816971Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (860.256µs)
+[2023-06-09T16:41:17.421096053Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:17.423555599Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.458927ms)
+[2023-06-09T16:41:17.425351274Z][docker-desktop-user-distro][I] (31ab8916-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:17.426329124Z][docker-desktop-user-distro][I] (31ab8916-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (974.406µs): OK
+[2023-06-09T16:41:17.650105749Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:17.650955095Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (861.902µs)
+[2023-06-09T16:41:17.651302864Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:17.653757353Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.454811ms)
+[2023-06-09T16:41:17.655726491Z][docker-desktop-user-distro][I] (be3a314b-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:17.656690475Z][docker-desktop-user-distro][I] (be3a314b-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (960.949µs): OK
+[2023-06-09T16:41:17.863789508Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:17.864555210Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (774.814µs)
+[2023-06-09T16:41:17.864820863Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:17.867279737Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.458605ms)
+[2023-06-09T16:41:17.869145984Z][docker-desktop-user-distro][I] (4d934d97-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:17.870070993Z][docker-desktop-user-distro][I] (4d934d97-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (920.505µs): OK
+[2023-06-09T16:41:18.010287935Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:18.011056796Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (778.014µs)
+[2023-06-09T16:41:18.011304531Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:18.013811200Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.507093ms)
+[2023-06-09T16:41:18.015637318Z][docker-desktop-user-distro][I] (3a300925-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:18.016643394Z][docker-desktop-user-distro][I] (3a300925-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.00189ms): OK
+[2023-06-09T16:41:18.100150840Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:18.101044865Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (906.14µs)
+[2023-06-09T16:41:18.101386986Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:18.103875885Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.488986ms)
+[2023-06-09T16:41:18.105680555Z][docker-desktop-user-distro][I] (23ed85ad-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:18.106718803Z][docker-desktop-user-distro][I] (23ed85ad-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.024762ms): OK
+[2023-06-09T16:41:18.146523541Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:18.146531372Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:18.147404487Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (874.651µs)
+[2023-06-09T16:41:18.147404530Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (897.441µs)
+[2023-06-09T16:41:18.147714504Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:18.147870545Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:18.150719205Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.004254ms)
+[2023-06-09T16:41:18.150773210Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.901895ms)
+[2023-06-09T16:41:18.152571815Z][docker-desktop-user-distro][I] (a4be4614-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:18.152745509Z][docker-desktop-user-distro][I] (98ea0a8c-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:18.153794051Z][docker-desktop-user-distro][I] (a4be4614-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.217602ms): OK
+[2023-06-09T16:41:18.153921867Z][docker-desktop-user-distro][I] (98ea0a8c-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.174241ms): OK
+[2023-06-09T16:41:24.445697584Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:24.446508129Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (818.78µs)
+[2023-06-09T16:41:24.446847770Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/networks/minikube
+[2023-06-09T16:41:24.448009399Z][docker-desktop-user-distro][I] proxy << GET /v1.43/networks/minikube (1.160901ms)
+[2023-06-09T16:41:24.449505493Z][docker-desktop-user-distro][I] (ec8021f2-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:24.450531856Z][docker-desktop-user-distro][I] (ec8021f2-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.023859ms): OK
+[2023-06-09T16:41:24.497449263Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:24.498257119Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (820.659µs)
+[2023-06-09T16:41:24.498586049Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:24.501860469Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.276804ms)
+[2023-06-09T16:41:24.503997106Z][docker-desktop-user-distro][I] (d02d45be-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:24.504968132Z][docker-desktop-user-distro][I] (d02d45be-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (967.8µs): OK
+[2023-06-09T16:41:36.401715276Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:36.402618906Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (914.053µs)
+[2023-06-09T16:41:36.402921194Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:36.405228107Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:36.405917446Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (699.782µs)
+[2023-06-09T16:41:36.406180490Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.258063ms)
+[2023-06-09T16:41:36.406579360Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:36.408144306Z][docker-desktop-user-distro][I] (e22d895a-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:36.409085538Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.506108ms)
+[2023-06-09T16:41:36.409123729Z][docker-desktop-user-distro][I] (e22d895a-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (977.472µs): OK
+[2023-06-09T16:41:36.410798101Z][docker-desktop-user-distro][I] (f705ab54-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:36.411764357Z][docker-desktop-user-distro][I] (f705ab54-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (964.027µs): OK
+[2023-06-09T16:41:36.464358105Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:36.465355232Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.032369ms)
+[2023-06-09T16:41:36.465789880Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:36.468937970Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.146739ms)
+[2023-06-09T16:41:36.469291651Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:36.470162136Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (876.458µs)
+[2023-06-09T16:41:36.470467243Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:36.471332384Z][docker-desktop-user-distro][I] (1eba5b46-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:36.472829010Z][docker-desktop-user-distro][I] (1eba5b46-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.492635ms): OK
+[2023-06-09T16:41:36.473599716Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.132336ms)
+[2023-06-09T16:41:36.475941643Z][docker-desktop-user-distro][I] (aafe0090-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:36.477416759Z][docker-desktop-user-distro][I] (aafe0090-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.45381ms): OK
+[2023-06-09T16:41:36.520252331Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:36.521692656Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.40247ms)
+[2023-06-09T16:41:36.522117424Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:36.524916620Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.799756ms)
+[2023-06-09T16:41:36.527736192Z][docker-desktop-user-distro][I] (9e9a9222-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:36.529270510Z][docker-desktop-user-distro][I] (9e9a9222-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.530179ms): OK
+[2023-06-09T16:41:37.510262024Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T16:41:37.511074440Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (821.658µs)
+[2023-06-09T16:41:37.511373822Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T16:41:37.513892135Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (2.517342ms)
+[2023-06-09T16:41:37.515754552Z][docker-desktop-user-distro][I] (db843b2e-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T16:41:37.516711213Z][docker-desktop-user-distro][I] (db843b2e-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (953.535µs): OK
+[2023-06-09T17:13:44.098367476Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:13:44.101316845Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (3.058223ms)
+[2023-06-09T17:13:44.102033572Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:13:44.112613571Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (10.575208ms)
+[2023-06-09T17:13:44.116517474Z][docker-desktop-user-distro][I] (7154b322-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:13:44.118911993Z][docker-desktop-user-distro][I] (7154b322-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (2.387546ms): OK
+[2023-06-09T17:13:44.198123866Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:13:44.199323971Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.216643ms)
+[2023-06-09T17:13:44.200002661Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:13:44.205027291Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (5.023079ms)
+[2023-06-09T17:13:44.208465898Z][docker-desktop-user-distro][I] (ac841f46-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:13:44.210162217Z][docker-desktop-user-distro][I] (ac841f46-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.691939ms): OK
+[2023-06-09T17:13:44.296971157Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:13:44.298122169Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.157581ms)
+[2023-06-09T17:13:44.298508143Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:13:44.302682515Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (4.173797ms)
+[2023-06-09T17:13:44.305666263Z][docker-desktop-user-distro][I] (5e42658b-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:13:44.307835032Z][docker-desktop-user-distro][I] (5e42658b-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (2.167903ms): OK
+[2023-06-09T17:13:44.529249139Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:13:44.530535123Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.300101ms)
+[2023-06-09T17:13:44.531105185Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:13:44.534938743Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.83413ms)
+[2023-06-09T17:13:44.541048697Z][docker-desktop-user-distro][I] (71e3ed29-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:13:44.542729776Z][docker-desktop-user-distro][I] (71e3ed29-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.675357ms): OK
+[2023-06-09T17:13:44.617685823Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:13:44.619077277Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.407346ms)
+[2023-06-09T17:13:44.619655110Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:13:44.623934516Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (4.277415ms)
+[2023-06-09T17:13:44.627467612Z][docker-desktop-user-distro][I] (5ff1213e-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:13:44.629597485Z][docker-desktop-user-distro][I] (5ff1213e-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (2.095967ms): OK
+[2023-06-09T17:36:51.883966786Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:36:51.885910816Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.982628ms)
+[2023-06-09T17:36:51.886523155Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:36:51.892405007Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (5.883091ms)
+[2023-06-09T17:36:51.895397350Z][docker-desktop-user-distro][I] (492b5dc9-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:36:51.897469028Z][docker-desktop-user-distro][I] (492b5dc9-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (2.067414ms): OK
+[2023-06-09T17:36:51.967742625Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:36:51.969197070Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.474905ms)
+[2023-06-09T17:36:51.969646087Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:36:51.974680099Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (5.033668ms)
+[2023-06-09T17:36:51.977865346Z][docker-desktop-user-distro][I] (b2a066a6-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:36:51.979774028Z][docker-desktop-user-distro][I] (b2a066a6-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.903813ms): OK
+[2023-06-09T17:36:52.059587426Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:36:52.060826414Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.253419ms)
+[2023-06-09T17:36:52.061208194Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:36:52.065810145Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (4.601314ms)
+[2023-06-09T17:36:52.068600851Z][docker-desktop-user-distro][I] (c5b6ee40-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:36:52.070752639Z][docker-desktop-user-distro][I] (c5b6ee40-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (2.1307ms): OK
+[2023-06-09T17:36:52.135987303Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:36:52.137326652Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.353933ms)
+[2023-06-09T17:36:52.137732937Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:36:52.142086645Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (4.352214ms)
+[2023-06-09T17:36:52.144956554Z][docker-desktop-user-distro][I] (756e5088-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:36:52.146714337Z][docker-desktop-user-distro][I] (756e5088-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.750882ms): OK
+[2023-06-09T17:37:23.673076655Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:37:23.674683012Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.633428ms)
+[2023-06-09T17:37:23.675533928Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:37:23.680973844Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (5.439801ms)
+[2023-06-09T17:37:23.684118396Z][docker-desktop-user-distro][I] (d3226afe-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:37:23.685697256Z][docker-desktop-user-distro][I] (d3226afe-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.576498ms): OK
+[2023-06-09T17:37:23.726028640Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:37:23.727545152Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.52633ms)
+[2023-06-09T17:37:23.728065294Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:37:23.731352961Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.28638ms)
+[2023-06-09T17:37:23.733429784Z][docker-desktop-user-distro][I] (2300d751-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:37:23.734582609Z][docker-desktop-user-distro][I] (2300d751-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.149848ms): OK
+[2023-06-09T17:41:09.486258783Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:41:09.488383266Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (2.155564ms)
+[2023-06-09T17:41:09.489047943Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:41:09.494559268Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (5.535975ms)
+[2023-06-09T17:41:09.497721984Z][docker-desktop-user-distro][I] (c9519175-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:41:09.499742456Z][docker-desktop-user-distro][I] (c9519175-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (2.016798ms): OK
+[2023-06-09T17:41:09.572395115Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:41:09.573653230Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.2787ms)
+[2023-06-09T17:41:09.574628907Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:41:09.581346294Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (6.716678ms)
+[2023-06-09T17:41:09.584177907Z][docker-desktop-user-distro][I] (8a2d8ed6-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:41:09.585896657Z][docker-desktop-user-distro][I] (8a2d8ed6-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.712246ms): OK
+[2023-06-09T17:41:09.652505013Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:41:09.653848735Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.358055ms)
+[2023-06-09T17:41:09.654379010Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:41:09.658229570Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (3.850901ms)
+[2023-06-09T17:41:09.661426648Z][docker-desktop-user-distro][I] (189f1506-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:41:09.663141961Z][docker-desktop-user-distro][I] (189f1506-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (1.707564ms): OK
+[2023-06-09T17:41:09.811159833Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-09T17:41:09.812859586Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.713719ms)
+[2023-06-09T17:41:09.813499781Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/containers/minikube/json
+[2023-06-09T17:41:09.818429611Z][docker-desktop-user-distro][I] proxy << GET /v1.43/containers/minikube/json (4.93281ms)
+[2023-06-09T17:41:09.821974653Z][docker-desktop-user-distro][I] (eb067b30-1) 5132c670-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-09T17:41:09.824071880Z][docker-desktop-user-distro][I] (eb067b30-1) 5132c670-WSLIntegrationProxy C<-S c1a977be-BackendAPI POST /usage (2.079541ms): OK
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2023-06-15T20:47:44.743458682Z][docker-desktop-user-distro][I] set path configuration to InsideWslWorkspace
+[2023-06-15T20:47:44.748564158Z][docker-desktop-user-distro][I] changed the mode of the socket /mnt/wsl/docker-desktop/shared-sockets/host-services/extension-manager.sock to 0660
+[2023-06-15T20:47:44.748629023Z][docker-desktop-user-distro][I] ipc.NewClient: de76de0e-LinuxProxyCMD -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendAPI
+[2023-06-15T20:47:44.748710134Z][docker-desktop-user-distro][I] ipc.NewClient: 01dce717-WSLIntegrationProxy -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendCLI
+[2023-06-15T20:47:44.748832252Z][docker-desktop-user-distro][I] 3bba9416-cross-distro : registering GET /ping
+[2023-06-15T20:47:44.748863040Z][docker-desktop-user-distro][I] 3bba9416-cross-distro : registering GET /
+[2023-06-15T20:47:44.748873539Z][docker-desktop-user-distro][I] 3bba9416-cross-distro : registering GET /goroutines/stacks
+[2023-06-15T20:47:44.748918598Z][docker-desktop-user-distro][I] 3bba9416-cross-distro : registering POST /add-mount
+[2023-06-15T20:47:44.748948099Z][docker-desktop-user-distro][I] 3bba9416-cross-distro : registering POST /write
+[2023-06-15T20:47:44.748980958Z][docker-desktop-user-distro][I] ipc.NewClient: 83a49a39-CrossDistroService -> /var/run/docker.sock WSL2DistroProxy
+[2023-06-15T20:47:44.749010095Z][docker-desktop-user-distro][I] 3bba9416-cross-distro : registering GET /check
+[2023-06-15T20:47:44.751073665Z][docker-desktop-user-distro][I] starting f35e90d5-dockerCLISock for component WSLIntegrationProxy on /var/run/docker-cli.sock
+[2023-06-15T20:47:44.751244223Z][docker-desktop-user-distro][I] starting 3bba9416-cross-distro for component Ubuntu-18.04 on /mnt/wsl/docker-desktop/shared-sockets/guest-services/distro-services/ubuntu-18.04.sock
+[2023-06-15T20:47:44.751584442Z][docker-desktop-user-distro][I] add ProxyAutoResume middleware
+[2023-06-15T20:47:44.753084807Z][docker-desktop-user-distro][I] de76de0e-LinuxProxyCMD /pause/state <-- [2023-06-15T15:47:44.751784442-05:00] (fe5cac26) ipc connecting : <nil>
+[2023-06-15T20:47:44.754333509Z][docker-desktop-user-distro][W] loading versions: unmarshalling components version: open /opt/docker-desktop/componentsVersion.json: no such file or directory
+[2023-06-15T20:47:44.757470915Z][docker-desktop-user-distro][I] de76de0e-LinuxProxyCMD /pause/state <-- [2023-06-15T15:47:30.170141300-05:00] (da68094a) pause resumed : init
+[2023-06-15T20:47:44.757582835Z][docker-desktop-user-distro][I] de76de0e-LinuxProxyCMD /pause/state <-- [2023-06-15T15:47:44.756552100-05:00] (06499ac1) ipc ready : <nil>
+[2023-06-15T20:47:44.758773515Z][docker-desktop-user-distro][I] creating symlink for /usr/bin/docker-credential-desktop.exe
+[2023-06-15T20:47:44.759044279Z][docker-desktop-user-distro][I] cli tools directory /mnt/wsl/docker-desktop/cli-tools has contents
+[2023-06-15T20:47:44.759096488Z][docker-desktop-user-distro][I] populating cli tools from /mnt/wsl/docker-desktop/cli-tools
+[2023-06-15T20:47:44.759489357Z][docker-desktop-user-distro][I] creating symlink for /usr/bin/com.docker.cli
+[2023-06-15T20:47:44.759569722Z][docker-desktop-user-distro][I] creating symlink for /usr/bin/docker
+[2023-06-15T20:47:44.759663787Z][docker-desktop-user-distro][I] creating symlink for /usr/bin/docker-compose
+[2023-06-15T20:47:44.760310708Z][docker-desktop-user-distro][I] creating symlink for /usr/bin/docker-compose-v1
+[2023-06-15T20:47:44.760386364Z][docker-desktop-user-distro][I] creating symlink for /usr/bin/docker-index
+[2023-06-15T20:47:44.760449325Z][docker-desktop-user-distro][I] creating symlink for /usr/bin/hub-tool
+[2023-06-15T20:47:44.760693742Z][docker-desktop-user-distro][I] creating symlink for /usr/local/bin/kubectl
+[2023-06-15T20:47:44.761826535Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-buildx
+[2023-06-15T20:47:44.762045849Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-compose
+[2023-06-15T20:47:44.762718536Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-dev
+[2023-06-15T20:47:44.762840090Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-extension
+[2023-06-15T20:47:44.762965671Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-init
+[2023-06-15T20:47:44.764346936Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-sbom
+[2023-06-15T20:47:44.764498739Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-scan
+[2023-06-15T20:47:44.764631812Z][docker-desktop-user-distro][I] creating symlink for /usr/local/lib/docker/cli-plugins/docker-scout
+[2023-06-15T20:47:44.766865164Z][docker-desktop-user-distro][I] creating symlink for /usr/share/bash-completion/completions/docker
+[2023-06-15T20:47:44.769086605Z][docker-desktop-user-distro][I] creating symlink for /usr/share/doc/docker-ce-cli/changelog.Debian.gz
+[2023-06-15T20:47:44.770546754Z][docker-desktop-user-distro][I] creating symlink for /usr/share/fish/vendor_completions.d/docker.fish
+[2023-06-15T20:47:44.776622131Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-attach.1.gz
+[2023-06-15T20:47:44.777541160Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-build.1.gz
+[2023-06-15T20:47:44.779112588Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-builder-build.1.gz
+[2023-06-15T20:47:44.779678199Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-builder-prune.1.gz
+[2023-06-15T20:47:44.779829086Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-builder.1.gz
+[2023-06-15T20:47:44.780206421Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-checkpoint-create.1.gz
+[2023-06-15T20:47:44.780651331Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-checkpoint-ls.1.gz
+[2023-06-15T20:47:44.780790649Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-checkpoint-rm.1.gz
+[2023-06-15T20:47:44.781366943Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-checkpoint.1.gz
+[2023-06-15T20:47:44.781498361Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-commit.1.gz
+[2023-06-15T20:47:44.782044410Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-config-create.1.gz
+[2023-06-15T20:47:44.782217605Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-config-inspect.1.gz
+[2023-06-15T20:47:44.782381595Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-config-ls.1.gz
+[2023-06-15T20:47:44.782524319Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-config-rm.1.gz
+[2023-06-15T20:47:44.782821661Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-config.1.gz
+[2023-06-15T20:47:44.782992565Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-attach.1.gz
+[2023-06-15T20:47:44.783160645Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-commit.1.gz
+[2023-06-15T20:47:44.783313579Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-cp.1.gz
+[2023-06-15T20:47:44.784217179Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-create.1.gz
+[2023-06-15T20:47:44.784376349Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-diff.1.gz
+[2023-06-15T20:47:44.785017239Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-exec.1.gz
+[2023-06-15T20:47:44.785151475Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-export.1.gz
+[2023-06-15T20:47:44.786271103Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-inspect.1.gz
+[2023-06-15T20:47:44.786454676Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-kill.1.gz
+[2023-06-15T20:47:44.786609314Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-logs.1.gz
+[2023-06-15T20:47:44.786756096Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-ls.1.gz
+[2023-06-15T20:47:44.787331533Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-pause.1.gz
+[2023-06-15T20:47:44.787533018Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-port.1.gz
+[2023-06-15T20:47:44.788226260Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-prune.1.gz
+[2023-06-15T20:47:44.788386464Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-rename.1.gz
+[2023-06-15T20:47:44.788566119Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-restart.1.gz
+[2023-06-15T20:47:44.788755842Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-rm.1.gz
+[2023-06-15T20:47:44.788917525Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-run.1.gz
+[2023-06-15T20:47:44.789084331Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-start.1.gz
+[2023-06-15T20:47:44.790087567Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-stats.1.gz
+[2023-06-15T20:47:44.790243959Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-stop.1.gz
+[2023-06-15T20:47:44.790371718Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-top.1.gz
+[2023-06-15T20:47:44.790504894Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-unpause.1.gz
+[2023-06-15T20:47:44.790654388Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-update.1.gz
+[2023-06-15T20:47:44.790815540Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container-wait.1.gz
+[2023-06-15T20:47:44.791073202Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-container.1.gz
+[2023-06-15T20:47:44.791242679Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-create.1.gz
+[2023-06-15T20:47:44.791534917Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-export.1.gz
+[2023-06-15T20:47:44.791680781Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-import.1.gz
+[2023-06-15T20:47:44.791818173Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-inspect.1.gz
+[2023-06-15T20:47:44.793893602Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-ls.1.gz
+[2023-06-15T20:47:44.794149149Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-rm.1.gz
+[2023-06-15T20:47:44.794348271Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-show.1.gz
+[2023-06-15T20:47:44.794515285Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-update.1.gz
+[2023-06-15T20:47:44.794656226Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context-use.1.gz
+[2023-06-15T20:47:44.794790395Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-context.1.gz
+[2023-06-15T20:47:44.794914577Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-cp.1.gz
+[2023-06-15T20:47:44.795110490Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-create.1.gz
+[2023-06-15T20:47:44.795261938Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-diff.1.gz
+[2023-06-15T20:47:44.795401784Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-events.1.gz
+[2023-06-15T20:47:44.795543794Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-exec.1.gz
+[2023-06-15T20:47:44.795674426Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-export.1.gz
+[2023-06-15T20:47:44.795812025Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-history.1.gz
+[2023-06-15T20:47:44.795942737Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-build.1.gz
+[2023-06-15T20:47:44.796076943Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-history.1.gz
+[2023-06-15T20:47:44.796217058Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-import.1.gz
+[2023-06-15T20:47:44.796344458Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-inspect.1.gz
+[2023-06-15T20:47:44.796475939Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-load.1.gz
+[2023-06-15T20:47:44.796606629Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-ls.1.gz
+[2023-06-15T20:47:44.796749005Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-prune.1.gz
+[2023-06-15T20:47:44.796881137Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-pull.1.gz
+[2023-06-15T20:47:44.797015574Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-push.1.gz
+[2023-06-15T20:47:44.797146617Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-rm.1.gz
+[2023-06-15T20:47:44.797295571Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-save.1.gz
+[2023-06-15T20:47:44.798336809Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image-tag.1.gz
+[2023-06-15T20:47:44.798490187Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-image.1.gz
+[2023-06-15T20:47:44.798608194Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-images.1.gz
+[2023-06-15T20:47:44.798740871Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-import.1.gz
+[2023-06-15T20:47:44.798881197Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-info.1.gz
+[2023-06-15T20:47:44.799122636Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-inspect.1.gz
+[2023-06-15T20:47:44.799255615Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-kill.1.gz
+[2023-06-15T20:47:44.799390628Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-load.1.gz
+[2023-06-15T20:47:44.799524721Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-login.1.gz
+[2023-06-15T20:47:44.799655789Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-logout.1.gz
+[2023-06-15T20:47:44.799781832Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-logs.1.gz
+[2023-06-15T20:47:44.799917828Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-manifest-annotate.1.gz
+[2023-06-15T20:47:44.800055162Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-manifest-create.1.gz
+[2023-06-15T20:47:44.800189791Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-manifest-inspect.1.gz
+[2023-06-15T20:47:44.800329171Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-manifest-push.1.gz
+[2023-06-15T20:47:44.800469646Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-manifest-rm.1.gz
+[2023-06-15T20:47:44.800605124Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-manifest.1.gz
+[2023-06-15T20:47:44.800744473Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network-connect.1.gz
+[2023-06-15T20:47:44.800888065Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network-create.1.gz
+[2023-06-15T20:47:44.801026658Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network-disconnect.1.gz
+[2023-06-15T20:47:44.801162227Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network-inspect.1.gz
+[2023-06-15T20:47:44.801292122Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network-ls.1.gz
+[2023-06-15T20:47:44.801421484Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network-prune.1.gz
+[2023-06-15T20:47:44.801552404Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network-rm.1.gz
+[2023-06-15T20:47:44.801667127Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-network.1.gz
+[2023-06-15T20:47:44.801793809Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node-demote.1.gz
+[2023-06-15T20:47:44.801938450Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node-inspect.1.gz
+[2023-06-15T20:47:44.802070698Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node-ls.1.gz
+[2023-06-15T20:47:44.802216396Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node-promote.1.gz
+[2023-06-15T20:47:44.802362690Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node-ps.1.gz
+[2023-06-15T20:47:44.802492578Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node-rm.1.gz
+[2023-06-15T20:47:44.802622285Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node-update.1.gz
+[2023-06-15T20:47:44.802761745Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-node.1.gz
+[2023-06-15T20:47:44.802899341Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-pause.1.gz
+[2023-06-15T20:47:44.803030798Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-create.1.gz
+[2023-06-15T20:47:44.803194357Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-disable.1.gz
+[2023-06-15T20:47:44.803329275Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-enable.1.gz
+[2023-06-15T20:47:44.803466488Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-inspect.1.gz
+[2023-06-15T20:47:44.803712042Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-install.1.gz
+[2023-06-15T20:47:44.803842756Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-ls.1.gz
+[2023-06-15T20:47:44.803975036Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-push.1.gz
+[2023-06-15T20:47:44.804106455Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-rm.1.gz
+[2023-06-15T20:47:44.804235405Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-set.1.gz
+[2023-06-15T20:47:44.804365535Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin-upgrade.1.gz
+[2023-06-15T20:47:44.804499298Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-plugin.1.gz
+[2023-06-15T20:47:44.804632717Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-port.1.gz
+[2023-06-15T20:47:44.804787031Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-ps.1.gz
+[2023-06-15T20:47:44.804911546Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-pull.1.gz
+[2023-06-15T20:47:44.805040548Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-push.1.gz
+[2023-06-15T20:47:44.805180411Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-rename.1.gz
+[2023-06-15T20:47:44.805338438Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-restart.1.gz
+[2023-06-15T20:47:44.805472887Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-rm.1.gz
+[2023-06-15T20:47:44.805608741Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-rmi.1.gz
+[2023-06-15T20:47:44.805743317Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-run.1.gz
+[2023-06-15T20:47:44.805881790Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-save.1.gz
+[2023-06-15T20:47:44.805985955Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-search.1.gz
+[2023-06-15T20:47:44.806193738Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-secret-create.1.gz
+[2023-06-15T20:47:44.806335177Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-secret-inspect.1.gz
+[2023-06-15T20:47:44.806464856Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-secret-ls.1.gz
+[2023-06-15T20:47:44.806617578Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-secret-rm.1.gz
+[2023-06-15T20:47:44.806758280Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-secret.1.gz
+[2023-06-15T20:47:44.806901135Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-create.1.gz
+[2023-06-15T20:47:44.807030284Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-inspect.1.gz
+[2023-06-15T20:47:44.807160854Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-logs.1.gz
+[2023-06-15T20:47:44.807287459Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-ls.1.gz
+[2023-06-15T20:47:44.807418394Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-ps.1.gz
+[2023-06-15T20:47:44.807549948Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-rm.1.gz
+[2023-06-15T20:47:44.807807762Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-rollback.1.gz
+[2023-06-15T20:47:44.807937761Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-scale.1.gz
+[2023-06-15T20:47:44.808072964Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service-update.1.gz
+[2023-06-15T20:47:44.808206629Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-service.1.gz
+[2023-06-15T20:47:44.808342413Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stack-config.1.gz
+[2023-06-15T20:47:44.808937017Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stack-deploy.1.gz
+[2023-06-15T20:47:44.809071802Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stack-ls.1.gz
+[2023-06-15T20:47:44.809214107Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stack-ps.1.gz
+[2023-06-15T20:47:44.809340730Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stack-rm.1.gz
+[2023-06-15T20:47:44.809469109Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stack-services.1.gz
+[2023-06-15T20:47:44.812023410Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stack.1.gz
+[2023-06-15T20:47:44.812572730Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-start.1.gz
+[2023-06-15T20:47:44.813671785Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stats.1.gz
+[2023-06-15T20:47:44.813835410Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-stop.1.gz
+[2023-06-15T20:47:44.813951588Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-ca.1.gz
+[2023-06-15T20:47:44.814129540Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-init.1.gz
+[2023-06-15T20:47:44.814283654Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-join-token.1.gz
+[2023-06-15T20:47:44.814408320Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-join.1.gz
+[2023-06-15T20:47:44.814559832Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-leave.1.gz
+[2023-06-15T20:47:44.814674441Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-unlock-key.1.gz
+[2023-06-15T20:47:44.814792174Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-unlock.1.gz
+[2023-06-15T20:47:44.814904132Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm-update.1.gz
+[2023-06-15T20:47:44.815059891Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-swarm.1.gz
+[2023-06-15T20:47:44.815161303Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-system-df.1.gz
+[2023-06-15T20:47:44.815316123Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-system-events.1.gz
+[2023-06-15T20:47:44.815447175Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-system-info.1.gz
+[2023-06-15T20:47:44.815591149Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-system-prune.1.gz
+[2023-06-15T20:47:44.816052822Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-system.1.gz
+[2023-06-15T20:47:44.816144088Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-tag.1.gz
+[2023-06-15T20:47:44.816233523Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-top.1.gz
+[2023-06-15T20:47:44.816333361Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-inspect.1.gz
+[2023-06-15T20:47:44.816473540Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-key-generate.1.gz
+[2023-06-15T20:47:44.816625905Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-key-load.1.gz
+[2023-06-15T20:47:44.817726711Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-key.1.gz
+[2023-06-15T20:47:44.818156200Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-revoke.1.gz
+[2023-06-15T20:47:44.818328722Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-sign.1.gz
+[2023-06-15T20:47:44.818471301Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-signer-add.1.gz
+[2023-06-15T20:47:44.818639455Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-signer-remove.1.gz
+[2023-06-15T20:47:44.818779350Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust-signer.1.gz
+[2023-06-15T20:47:44.818939046Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-trust.1.gz
+[2023-06-15T20:47:44.819076635Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-unpause.1.gz
+[2023-06-15T20:47:44.820028033Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-update.1.gz
+[2023-06-15T20:47:44.820175535Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-version.1.gz
+[2023-06-15T20:47:44.820319406Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-volume-create.1.gz
+[2023-06-15T20:47:44.820460758Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-volume-inspect.1.gz
+[2023-06-15T20:47:44.820594925Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-volume-ls.1.gz
+[2023-06-15T20:47:44.820727874Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-volume-prune.1.gz
+[2023-06-15T20:47:44.820868521Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-volume-rm.1.gz
+[2023-06-15T20:47:44.821006718Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-volume-update.1.gz
+[2023-06-15T20:47:44.821730455Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-volume.1.gz
+[2023-06-15T20:47:44.821879542Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker-wait.1.gz
+[2023-06-15T20:47:44.822006975Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man1/docker.1.gz
+[2023-06-15T20:47:44.825094266Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man5/Dockerfile.5.gz
+[2023-06-15T20:47:44.826462074Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man5/docker-config-json.5.gz
+[2023-06-15T20:47:44.829453076Z][docker-desktop-user-distro][I] creating symlink for /usr/share/man/man8/dockerd.8.gz
+[2023-06-15T20:47:44.830574997Z][docker-desktop-user-distro][I] creating symlink for /usr/share/zsh/vendor-completions/_docker
+[2023-06-15T20:47:44.830683405Z][docker-desktop-user-distro][I] cli tools successfully installed
+[2023-06-15T20:47:44.830706672Z][docker-desktop-user-distro][I] docker-desktop-user-distro proxy has started
+[2023-06-15T20:47:44.890147016Z][docker-desktop-user-distro][I] (af9e49d7-1) 3bba9416-cross-distro S<-C 8695257e-cross-distro-router GET /check
+[2023-06-15T20:47:44.890239197Z][docker-desktop-user-distro][I] (af9e49d7-1-1) 83a49a39-CrossDistroService C->S WSL2DistroProxy GET /desktop-diagnostics/ping
+[2023-06-15T20:47:44.891566109Z][docker-desktop-user-distro][I] (af9e49d7-1-1) 83a49a39-CrossDistroService C<-S UnknownServer GET /desktop-diagnostics/ping (1.301866ms): OK
+[2023-06-15T20:47:44.891682475Z][docker-desktop-user-distro][I] (af9e49d7-1) 3bba9416-cross-distro S->C 8695257e-cross-distro-router GET /check (1.544786ms): OK
+[2023-06-15T21:07:26.515726772Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:07:26.516699943Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.021081ms)
+[2023-06-15T21:07:26.588636855Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/auth
+[2023-06-15T21:07:37.342609888Z][docker-desktop-user-distro][I] proxy << POST /v1.43/auth (10.753970637s)
+[2023-06-15T21:07:37.512148318Z][docker-desktop-user-distro][I] (1c196c22-1) 01dce717-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-15T21:07:37.513729747Z][docker-desktop-user-distro][I] (1c196c22-1) 01dce717-WSLIntegrationProxy C<-S 4980afce-BackendAPI POST /usage (1.580594ms): OK
+[2023-06-15T21:09:26.294147012Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:09:26.295532240Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.413722ms)
+[2023-06-15T21:09:26.715053625Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:09:26.716464776Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.426819ms)
+[2023-06-15T21:09:26.716951775Z][docker-desktop-user-distro][I] proxy >> POST /grpc
+[2023-06-15T21:09:26.717902927Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-15T21:09:26.719110809Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:09:26.720004933Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (893.877µs)
+[2023-06-15T21:09:26.720785033Z][docker-desktop-user-distro][W] Error forwarding raw stream from dockerd: write unix /var/run/docker.sock->@: write: broken pipe
+[2023-06-15T21:09:26.720933554Z][docker-desktop-user-distro][I] proxy << POST /grpc (3.997399ms)
+[2023-06-15T21:09:26.740256252Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:09:26.741546263Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.298619ms)
+[2023-06-15T21:09:26.742048079Z][docker-desktop-user-distro][I] proxy >> GET /v1.42/version
+[2023-06-15T21:09:26.752394317Z][docker-desktop-user-distro][I] proxy << GET /v1.42/version (10.343947ms)
+[2023-06-15T21:09:26.754442620Z][docker-desktop-user-distro][I] proxy >> POST /grpc
+[2023-06-15T21:09:26.755829152Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-15T21:09:26.790617189Z][docker-desktop-user-distro][I] proxy >> POST /session
+[2023-06-15T21:09:26.792447351Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-15T21:09:26.798411493Z][docker-desktop-user-distro][I] proxy << POST /session (7.812597ms)
+[2023-06-15T21:09:26.844643429Z][docker-desktop-user-distro][I] proxy >> POST /session
+[2023-06-15T21:09:26.845696759Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-15T21:09:30.330535629Z][docker-desktop-user-distro][I] proxy << POST /session (3.485995178s)
+[2023-06-15T21:09:30.336966466Z][docker-desktop-user-distro][I] proxy << POST /grpc (3.582531675s)
+[2023-06-15T21:09:30.339990382Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:09:30.341876187Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.915608ms)
+[2023-06-15T21:09:30.343585839Z][docker-desktop-user-distro][I] (e7fc7d04-1) 01dce717-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-15T21:09:30.347611567Z][docker-desktop-user-distro][I] (e7fc7d04-1) 01dce717-WSLIntegrationProxy C<-S 4980afce-BackendAPI POST /usage (4.023988ms): OK
+[2023-06-15T21:10:07.140836445Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:10:07.141984929Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.166051ms)
+[2023-06-15T21:10:07.286815839Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:10:07.288192587Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.398253ms)
+[2023-06-15T21:10:07.288937738Z][docker-desktop-user-distro][I] proxy >> POST /grpc
+[2023-06-15T21:10:07.290213157Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-15T21:10:07.291012099Z][docker-desktop-user-distro][I] proxy << POST /grpc (2.103395ms)
+[2023-06-15T21:10:07.291031248Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:10:07.292207190Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.220633ms)
+[2023-06-15T21:10:07.309969695Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:10:07.310932582Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (979.919µs)
+[2023-06-15T21:10:07.311410575Z][docker-desktop-user-distro][I] proxy >> GET /v1.42/version
+[2023-06-15T21:10:07.320201268Z][docker-desktop-user-distro][I] proxy << GET /v1.42/version (8.788186ms)
+[2023-06-15T21:10:07.321383353Z][docker-desktop-user-distro][I] proxy >> POST /grpc
+[2023-06-15T21:10:07.322446796Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-15T21:10:07.353052684Z][docker-desktop-user-distro][I] proxy >> POST /session
+[2023-06-15T21:10:07.354750435Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-15T21:10:07.358291097Z][docker-desktop-user-distro][I] proxy << POST /session (5.252445ms)
+[2023-06-15T21:10:07.386554075Z][docker-desktop-user-distro][I] proxy >> POST /session
+[2023-06-15T21:10:07.388371047Z][docker-desktop-user-distro][I] Upgrading to raw stream
+[2023-06-15T21:11:06.869031320Z][docker-desktop-user-distro][I] proxy << POST /session (59.482507992s)
+[2023-06-15T21:11:06.872966446Z][docker-desktop-user-distro][W] Error forwarding raw stream to dockerd: read unix /var/run/docker.sock->@: read: connection reset by peer
+[2023-06-15T21:11:06.875230948Z][docker-desktop-user-distro][I] proxy << POST /grpc (59.55389517s)
+[2023-06-15T21:11:06.875761004Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:11:06.877184800Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.48532ms)
+[2023-06-15T21:11:06.877998806Z][docker-desktop-user-distro][I] (37eeb202-1) 01dce717-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-15T21:11:06.880873391Z][docker-desktop-user-distro][I] (37eeb202-1) 01dce717-WSLIntegrationProxy C<-S 4980afce-BackendAPI POST /usage (2.867953ms): OK
+[2023-06-15T21:12:25.354378380Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:12:25.355845874Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.482908ms)
+[2023-06-15T21:12:25.358075050Z][docker-desktop-user-distro][I] (5dee62d0) de76de0e-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"imagePushCliLinux-from-wsl","count":1}
+[2023-06-15T21:12:25.361210350Z][docker-desktop-user-distro][I] (5dee62d0) de76de0e-LinuxProxyCMD C<-S 4980afce-BackendAPI POST /usage (4.510225ms): OK
+[2023-06-15T21:12:25.361334200Z][docker-desktop-user-distro][I] usage imagePushCliLinux-from-wsl + 1
+[2023-06-15T21:12:25.361355942Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/images/nikhilch9999/wepage/push?tag=latest
+[2023-06-15T21:12:25.505121753Z][docker-desktop-user-distro][I] proxy << POST /v1.43/images/nikhilch9999/wepage/push?tag=latest (143.739867ms)
+[2023-06-15T21:12:25.509103498Z][docker-desktop-user-distro][I] (0fa5ca27-1) 01dce717-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-15T21:12:25.512992249Z][docker-desktop-user-distro][I] (0fa5ca27-1) 01dce717-WSLIntegrationProxy C<-S 4980afce-BackendAPI POST /usage (3.879199ms): OK
+[2023-06-15T21:12:46.945606542Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:12:46.947634548Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (2.045438ms)
+[2023-06-15T21:12:46.948061493Z][docker-desktop-user-distro][I] proxy >> GET /v1.43/images/json
+[2023-06-15T21:12:46.951189365Z][docker-desktop-user-distro][I] proxy << GET /v1.43/images/json (3.126922ms)
+[2023-06-15T21:12:46.954645676Z][docker-desktop-user-distro][I] (2913e5e4-1) 01dce717-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-15T21:12:46.956851128Z][docker-desktop-user-distro][I] (2913e5e4-1) 01dce717-WSLIntegrationProxy C<-S 4980afce-BackendAPI POST /usage (2.20022ms): OK
+[2023-06-15T21:13:14.123156061Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:13:14.125037888Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.908702ms)
+[2023-06-15T21:13:14.125572102Z][docker-desktop-user-distro][I] (365e0bd7) de76de0e-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"imagePushCliLinux-from-wsl","count":1}
+[2023-06-15T21:13:14.127786653Z][docker-desktop-user-distro][I] (365e0bd7) de76de0e-LinuxProxyCMD C<-S 4980afce-BackendAPI POST /usage (2.250315ms): OK
+[2023-06-15T21:13:14.127843371Z][docker-desktop-user-distro][I] usage imagePushCliLinux-from-wsl + 1
+[2023-06-15T21:13:14.127860364Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/images/latest/push?tag=latest
+[2023-06-15T21:13:14.223668493Z][docker-desktop-user-distro][I] proxy << POST /v1.43/images/latest/push?tag=latest (95.791448ms)
+[2023-06-15T21:13:14.227431566Z][docker-desktop-user-distro][I] (a70923a6-1) 01dce717-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-15T21:13:14.231647535Z][docker-desktop-user-distro][I] (a70923a6-1) 01dce717-WSLIntegrationProxy C<-S 4980afce-BackendAPI POST /usage (4.211362ms): OK
+[2023-06-15T21:13:30.965051755Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:13:30.966298782Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.262756ms)
+[2023-06-15T21:13:30.966770217Z][docker-desktop-user-distro][I] (cb526f3b) de76de0e-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"imagePushCliLinux-from-wsl","count":1}
+[2023-06-15T21:13:30.969552915Z][docker-desktop-user-distro][I] (cb526f3b) de76de0e-LinuxProxyCMD C<-S 4980afce-BackendAPI POST /usage (2.816255ms): OK
+[2023-06-15T21:13:30.969582894Z][docker-desktop-user-distro][I] usage imagePushCliLinux-from-wsl + 1
+[2023-06-15T21:13:30.969595523Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/images/nikhilch9999/wepage/push?tag=latest
+[2023-06-15T21:13:31.026318668Z][docker-desktop-user-distro][I] proxy << POST /v1.43/images/nikhilch9999/wepage/push?tag=latest (56.71492ms)
+[2023-06-15T21:13:31.028265283Z][docker-desktop-user-distro][I] (624f65cf-1) 01dce717-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-15T21:13:31.030278159Z][docker-desktop-user-distro][I] (624f65cf-1) 01dce717-WSLIntegrationProxy C<-S 4980afce-BackendAPI POST /usage (2.007214ms): OK
+[2023-06-15T21:15:37.382144432Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:15:37.383530153Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.475248ms)
+[2023-06-15T21:15:37.384652627Z][docker-desktop-user-distro][I] (f1f3a270) de76de0e-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"imagePushCliLinux-from-wsl","count":1}
+[2023-06-15T21:15:37.386881667Z][docker-desktop-user-distro][I] (f1f3a270) de76de0e-LinuxProxyCMD C<-S 4980afce-BackendAPI POST /usage (2.344407ms): OK
+[2023-06-15T21:15:37.386947694Z][docker-desktop-user-distro][I] usage imagePushCliLinux-from-wsl + 1
+[2023-06-15T21:15:37.386967823Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/images/nikhilch9999/nikhilch9999/webpage/push?tag=latest
+[2023-06-15T21:15:37.430686590Z][docker-desktop-user-distro][I] proxy << POST /v1.43/images/nikhilch9999/nikhilch9999/webpage/push?tag=latest (43.701081ms)
+[2023-06-15T21:15:37.437132274Z][docker-desktop-user-distro][I] (788dc8c9-1) 01dce717-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-15T21:15:37.441344161Z][docker-desktop-user-distro][I] (788dc8c9-1) 01dce717-WSLIntegrationProxy C<-S 4980afce-BackendAPI POST /usage (4.206709ms): OK
+[2023-06-15T21:15:52.862242381Z][docker-desktop-user-distro][I] (ff63d569-1) 01dce717-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-15T21:15:52.864442015Z][docker-desktop-user-distro][I] (ff63d569-1) 01dce717-WSLIntegrationProxy C<-S 4980afce-BackendAPI POST /usage (2.194509ms): OK
+[2023-06-15T21:17:04.218936124Z][docker-desktop-user-distro][I] proxy >> HEAD /_ping
+[2023-06-15T21:17:04.220220976Z][docker-desktop-user-distro][I] proxy << HEAD /_ping (1.30451ms)
+[2023-06-15T21:17:04.220634019Z][docker-desktop-user-distro][I] (af320aa8) de76de0e-LinuxProxyCMD C->S BackendAPI POST /usage: {"command":"imagePushCliLinux-from-wsl","count":1}
+[2023-06-15T21:17:04.223532800Z][docker-desktop-user-distro][I] (af320aa8) de76de0e-LinuxProxyCMD C<-S 4980afce-BackendAPI POST /usage (2.935607ms): OK
+[2023-06-15T21:17:04.223604517Z][docker-desktop-user-distro][I] usage imagePushCliLinux-from-wsl + 1
+[2023-06-15T21:17:04.223626874Z][docker-desktop-user-distro][I] proxy >> POST /v1.43/images/nikhilch9999/webpage/push?tag=latest
+[2023-06-15T21:17:13.889994247Z][docker-desktop-user-distro][I] proxy << POST /v1.43/images/nikhilch9999/webpage/push?tag=latest (9.678371238s)
+[2023-06-15T21:17:13.895875826Z][docker-desktop-user-distro][I] (b06d79cf-1) 01dce717-WSLIntegrationProxy C->S BackendCLI POST /usage
+[2023-06-15T21:17:13.900553308Z][docker-desktop-user-distro][I] (b06d79cf-1) 01dce717-WSLIntegrationProxy C<-S 4980afce-BackendAPI POST /usage (4.671141ms): OK
